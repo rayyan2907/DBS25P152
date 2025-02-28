@@ -16,5 +16,30 @@ namespace Itec_Mangement
         {
             InitializeComponent();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            mainpage mainpage = new mainpage();
+            mainpage.Show();
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Are you sure you want to exit?", "Exit Confirmation",
+                                          MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit(); // Close the application
+            }
+
+        }
+
+        private void report_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

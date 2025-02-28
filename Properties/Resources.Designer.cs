@@ -184,6 +184,26 @@ namespace Itec_Mangement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap image_invert__4_ {
+            get {
+                object obj = ResourceManager.GetObject("image-invert (4)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_invert__4___1_ {
+            get {
+                object obj = ResourceManager.GetObject("image-invert (4) (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap image_invert1 {
             get {
                 object obj = ResourceManager.GetObject("image-invert1", resourceCulture);

@@ -33,7 +33,7 @@ namespace Itec_Mangement
             textBox2.Clear();
             textBox4.Clear();
             
-            MessageBox.Show("All Cleared", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("All Cleared", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
 

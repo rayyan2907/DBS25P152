@@ -111,7 +111,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Itec_Mangement.Properties.Resources.Yellow_and_Pink_Fruit_Bold_Illustrative_Food_Product_Logo__2_;
-            this.pictureBox2.Location = new System.Drawing.Point(304, -160);
+            this.pictureBox2.Location = new System.Drawing.Point(302, -160);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(500, 500);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;

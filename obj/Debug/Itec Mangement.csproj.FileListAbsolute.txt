@@ -34,3 +34,7 @@ C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.add_new_venue.r
 C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.assign_venue.resources
 C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.delete_venue.resources
 C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.edit_venue.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.result.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.competetion_results.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.rankings.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.report.resources
