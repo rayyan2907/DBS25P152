@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B9371A84-5D42-439B-96AB-450A767DFE54}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Itec_Mangement</RootNamespace>
+    <AssemblyName>Itec Mangement</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>C:\Users\Rayya\Downloads\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="commitee_add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="commitee_add.Designer.cs">
+      <DependentUpon>commitee_add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="commitee_del.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="commitee_del.Designer.cs">
+      <DependentUpon>commitee_del.cs</DependentUpon>
+    </Compile>
+    <Compile Include="committee_members_assign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="committee_members_assign.Designer.cs">
+      <DependentUpon>committee_members_assign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="committee_update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="committee_update.Designer.cs">
+      <DependentUpon>committee_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="duty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="duty.Designer.cs">
+      <DependentUpon>duty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="eventadd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="eventadd.Designer.cs">
+      <DependentUpon>eventadd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="events.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="events.Designer.cs">
+      <DependentUpon>events.cs</DependentUpon>
+    </Compile>
+    <Compile Include="event_delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="event_delete.Designer.cs">
+      <DependentUpon>event_delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="event_update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="event_update.Designer.cs">
+      <DependentUpon>event_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="finance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="finance.Designer.cs">
+      <DependentUpon>finance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itec_edition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itec_edition.Designer.cs">
+      <DependentUpon>itec_edition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loading.Designer.cs">
+      <DependentUpon>loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainpage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainpage.Designer.cs">
+      <DependentUpon>mainpage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="participant_delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="participant_delete.Designer.cs">
+      <DependentUpon>participant_delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="participant_update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="participant_update.Designer.cs">
+      <DependentUpon>participant_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registration.Designer.cs">
+      <DependentUpon>registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="registration_for_an_event.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registration_for_an_event.Designer.cs">
+      <DependentUpon>registration_for_an_event.cs</DependentUpon>
+    </Compile>
+    <Compile Include="registration_student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registration_student.Designer.cs">
+      <DependentUpon>registration_student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="report.Designer.cs">
+      <DependentUpon>report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="result.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="result.Designer.cs">
+      <DependentUpon>result.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rolls.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rolls.Designer.cs">
+      <DependentUpon>rolls.cs</DependentUpon>
+    </Compile>
+    <Compile Include="venue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="venue.Designer.cs">
+      <DependentUpon>venue.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="commitee_add.resx">
+      <DependentUpon>commitee_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="commitee_del.resx">
+      <DependentUpon>commitee_del.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="committee_members_assign.resx">
+      <DependentUpon>committee_members_assign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="committee_update.resx">
+      <DependentUpon>committee_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="duty.resx">
+      <DependentUpon>duty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eventadd.resx">
+      <DependentUpon>eventadd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="events.resx">
+      <DependentUpon>events.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="event_delete.resx">
+      <DependentUpon>event_delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="event_update.resx">
+      <DependentUpon>event_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itec_edition.resx">
+      <DependentUpon>itec_edition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loading.resx">
+      <DependentUpon>loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainpage.resx">
+      <DependentUpon>mainpage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="participant_delete.resx">
+      <DependentUpon>participant_delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="participant_update.resx">
+      <DependentUpon>participant_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="registration.resx">
+      <DependentUpon>registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registration_for_an_event.resx">
+      <DependentUpon>registration_for_an_event.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registration_student.resx">
+      <DependentUpon>registration_student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rolls.resx">
+      <DependentUpon>rolls.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2025-02-27 at 12.00.58_eae19640.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yellow and Pink Fruit Bold Illustrative Food Product Logo %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yellow and Pink Fruit Bold Illustrative Food Product Logo %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%291.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%292.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rocket-animation-launching-ship-flying-alpha-channel-transparent-background-4k-resolution-free-video.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar-date-date-notes-business-office-event-icon-template-black-color-editable-calendar-date-symbol-flat-illustration-for-graphic-and-web-design-free-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1328821578-612x612 %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29 %281%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11319783.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1423550966-612x612 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\196081597-competition-icon-in-vector-logotype %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-computer-icons-arrow-back-icon-angle-logo-symbol-thumbnail.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-invert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-invert.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-invert %281%29 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vivid-blurred-colorful-wallpaper-background_58702-2414.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-button.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-button-cursor-pointer-click-600nw-2239299383 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-button %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-02-27 222729.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-02-27 222930.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-02-27 2229301.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-02-27 222930.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-02-27 223311 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-02-27 223311 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-02-27 223311 %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-invert %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-invert %282%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>taskkill /F /IM "Itec Mangement.exe" /T
+</PostBuildEvent>
+  </PropertyGroup>
+</Project>

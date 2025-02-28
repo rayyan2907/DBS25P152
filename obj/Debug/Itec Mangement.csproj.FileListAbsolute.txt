@@ -1,0 +1,28 @@
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\Itec Mangement.exe.config
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\Itec Mangement.exe
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\Itec Mangement.pdb
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec Mangement.csproj.AssemblyReference.cache
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.events.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.itec_edition.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.loading.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.mainpage.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.Properties.Resources.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.registration.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec Mangement.csproj.GenerateResource.cache
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec Mangement.csproj.CoreCompileInputs.cache
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec Mangement.exe
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec Mangement.pdb
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.duty.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.eventadd.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.eventupdate.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.event_update.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.event_delete.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.registration_student.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.registration_for_an_event.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.participant_delete.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.participant_update.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.rolls.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.commitee_add.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.commitee_del.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.committee_update.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.committee_members_assign.resources

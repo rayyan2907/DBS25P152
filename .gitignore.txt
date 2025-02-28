@@ -1,0 +1,46 @@
+# Build output
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio specific files
+.vs/
+*.vssscc
+*.vssscc
+*.vsidx
+
+# Packages
+packages/
+*.nupkg
+*.snupkg
+
+# Logs and generated files
+*.log
+*.tlog
+*.cache
+
+# Publish output
+publish/
+app.publish/
+
+# Dependencies
+project.lock.json
+project.assets.json
+
+# Resharper
+*.DotSettings.user
+
+# Rider
+.idea/
+
+# Windows Forms auto-generated files
+*.Designer.cs
+*.resx

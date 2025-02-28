@@ -1,0 +1,124 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Itec_Mangement
+{
+    public partial class mainpage : Form
+    {
+        public mainpage()
+        {
+            InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+
+        }
+
+        private void mainpage_Load(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+           
+            events events = new events();
+            events.Show();
+                
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            finance finance = new finance();
+            this.Hide();
+            finance.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            result result = new result();
+            this.Hide();
+            result.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            venue venue = new venue();
+            this.Hide();
+            venue.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            report report = new report();
+            this.Hide();
+            report.Show();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            itec_edition itec = new itec_edition();
+            this.Hide();
+            itec.Show();
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+             DialogResult result = MessageBox.Show("Are you sure you want to exit?", "Exit Confirmation", 
+                                          MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+    if (result == DialogResult.Yes)
+    {
+        Application.Exit(); // Close the application
+    }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            registration registration = new registration();
+            registration.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide() ;
+            rolls rolls = new rolls();
+            rolls.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            duty duty = new duty();
+            this.Hide(); duty.Show();
+        }
+    }
+}
