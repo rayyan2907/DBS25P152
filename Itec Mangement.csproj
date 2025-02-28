@@ -61,6 +61,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="add_new_venue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_new_venue.Designer.cs">
+      <DependentUpon>add_new_venue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="assign_venue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="assign_venue.Designer.cs">
+      <DependentUpon>assign_venue.cs</DependentUpon>
+    </Compile>
     <Compile Include="commitee_add.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,11 +97,29 @@
     <Compile Include="committee_update.Designer.cs">
       <DependentUpon>committee_update.cs</DependentUpon>
     </Compile>
+    <Compile Include="delete_venue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delete_venue.Designer.cs">
+      <DependentUpon>delete_venue.cs</DependentUpon>
+    </Compile>
     <Compile Include="duty.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="duty.Designer.cs">
       <DependentUpon>duty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="duty_assignment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="duty_assignment.Designer.cs">
+      <DependentUpon>duty_assignment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="edit_venue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="edit_venue.Designer.cs">
+      <DependentUpon>edit_venue.cs</DependentUpon>
     </Compile>
     <Compile Include="eventadd.cs">
       <SubType>Form</SubType>
@@ -189,12 +219,24 @@
     <Compile Include="rolls.Designer.cs">
       <DependentUpon>rolls.cs</DependentUpon>
     </Compile>
+    <Compile Include="track_progress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="track_progress.Designer.cs">
+      <DependentUpon>track_progress.cs</DependentUpon>
+    </Compile>
     <Compile Include="venue.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="venue.Designer.cs">
       <DependentUpon>venue.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="add_new_venue.resx">
+      <DependentUpon>add_new_venue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="assign_venue.resx">
+      <DependentUpon>assign_venue.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="commitee_add.resx">
       <DependentUpon>commitee_add.cs</DependentUpon>
     </EmbeddedResource>
@@ -207,8 +249,17 @@
     <EmbeddedResource Include="committee_update.resx">
       <DependentUpon>committee_update.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="delete_venue.resx">
+      <DependentUpon>delete_venue.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="duty.resx">
       <DependentUpon>duty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="duty_assignment.resx">
+      <DependentUpon>duty_assignment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edit_venue.resx">
+      <DependentUpon>edit_venue.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="eventadd.resx">
       <DependentUpon>eventadd.cs</DependentUpon>
@@ -221,6 +272,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="event_update.resx">
       <DependentUpon>event_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="finance.resx">
+      <DependentUpon>finance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="itec_edition.resx">
       <DependentUpon>itec_edition.cs</DependentUpon>
@@ -256,8 +310,17 @@
     <EmbeddedResource Include="registration_student.resx">
       <DependentUpon>registration_student.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="result.resx">
+      <DependentUpon>result.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="rolls.resx">
       <DependentUpon>rolls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="track_progress.resx">
+      <DependentUpon>track_progress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="venue.resx">
+      <DependentUpon>venue.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

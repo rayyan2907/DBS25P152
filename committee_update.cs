@@ -16,5 +16,31 @@ namespace Itec_Mangement
         {
             InitializeComponent();
         }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Unassign_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Committee Unassigned", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

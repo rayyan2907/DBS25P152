@@ -16,5 +16,36 @@ namespace Itec_Mangement
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Unassign_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Committee Deleted", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

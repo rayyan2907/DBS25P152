@@ -94,5 +94,13 @@ namespace Itec_Mangement
             panel3.Controls.Add(part_del);
             part_del.Show();
         }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            participant_delete part_del = new participant_delete();
+            part_del.TopLevel = false;
+            panel3.Controls.Add(part_del);
+            part_del.Show();
+        }
     }
 }

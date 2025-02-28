@@ -207,6 +207,7 @@
             this.label1.Size = new System.Drawing.Size(305, 29);
             this.label1.TabIndex = 34;
             this.label1.Text = "Register For An Event";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // comboBox1
             // 
