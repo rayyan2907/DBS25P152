@@ -73,9 +73,29 @@ namespace Itec_Mangement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _11319783__1___1_ {
+            get {
+                object obj = ResourceManager.GetObject("11319783 (1) (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _196081597_competition_icon_in_vector_logotype__2_ {
             get {
                 object obj = ResourceManager.GetObject("196081597-competition-icon-in-vector-logotype (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _196081597_competition_icon_in_vector_logotype__2___1_ {
+            get {
+                object obj = ResourceManager.GetObject("196081597-competition-icon-in-vector-logotype (2) (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -117,6 +137,18 @@ namespace Itec_Mangement.Properties {
             get {
                 object obj = ResourceManager.GetObject("calendar-date-date-notes-business-office-event-icon-template-black-color-editable" +
                         "-calendar-date-symbol-flat-illustration-for-graphic-and-web-design-free-vector", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap calendar_date_date_notes_business_office_event_icon_template_black_color_editable_calendar_date_symbol_flat_illustration_for_graphic_and_web_design_free_vector__2_ {
+            get {
+                object obj = ResourceManager.GetObject("calendar-date-date-notes-business-office-event-icon-template-black-color-editable" +
+                        "-calendar-date-symbol-flat-illustration-for-graphic-and-web-design-free-vector (" +
+                        "2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -244,6 +276,16 @@ namespace Itec_Mangement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap images__1___1___1_ {
+            get {
+                object obj = ResourceManager.GetObject("images (1) (1) (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap images__1___1_1 {
             get {
                 object obj = ResourceManager.GetObject("images (1) (1)1", resourceCulture);
@@ -284,9 +326,29 @@ namespace Itec_Mangement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap images__2___1_ {
+            get {
+                object obj = ResourceManager.GetObject("images (2) (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap images__3_ {
             get {
                 object obj = ResourceManager.GetObject("images (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images__3___1___1_ {
+            get {
+                object obj = ResourceManager.GetObject("images (3) (1) (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -314,6 +376,16 @@ namespace Itec_Mangement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_1328821578_612x612__3___1_ {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-1328821578-612x612 (3) (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap istockphoto_1423550966_612x612__1_ {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-1423550966-612x612 (1)", resourceCulture);
@@ -324,9 +396,30 @@ namespace Itec_Mangement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_1423550966_612x612__2_ {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-1423550966-612x612 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap png_transparent_computer_icons_arrow_back_icon_angle_logo_symbol_thumbnail {
             get {
                 object obj = ResourceManager.GetObject("png-transparent-computer-icons-arrow-back-icon-angle-logo-symbol-thumbnail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_blue_wireframe_waves_on_dark_smoke_background_abstract_tech_design_for_picture_image_11907560 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-blue-wireframe-waves-on-dark-smoke-background-abstract-tech-design-for-pi" +
+                        "cture-image_11907560", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -448,6 +541,16 @@ namespace Itec_Mangement.Properties {
         internal static System.Drawing.Bitmap Yellow_and_Pink_Fruit_Bold_Illustrative_Food_Product_Logo__2_ {
             get {
                 object obj = ResourceManager.GetObject("Yellow and Pink Fruit Bold Illustrative Food Product Logo (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Yellow_and_Pink_Fruit_Bold_Illustrative_Food_Product_Logo__2__1 {
+            get {
+                object obj = ResourceManager.GetObject("Yellow and Pink Fruit Bold Illustrative Food Product Logo (2) 1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

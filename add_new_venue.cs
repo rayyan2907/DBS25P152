@@ -19,8 +19,28 @@ namespace Itec_Mangement
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Saved", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            string venue_id = textBox1.Text.Trim();
+            string venue_name = textBox2.Text.Trim();
+            string capacity = textBox4.Text.Trim();
+            string location = textBox3.Text.Trim();
 
+            bool flag = venue_class.VenueAdd(venue_id, venue_name, capacity, location);
+
+            if (flag)
+            {
+                MessageBox.Show("Venue Saved Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                textBox1.Clear();
+                textBox2.Clear();
+                textBox3.Clear();
+                textBox4.Clear();
+
+
+            }
+            else
+            {
+                MessageBox.Show("Error saving venue.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -32,9 +52,15 @@ namespace Itec_Mangement
         {
             textBox1.Clear();
             textBox2.Clear();
+            textBox3.Clear();
             textBox4.Clear();
             MessageBox.Show("All Cleared", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+        }
+
+        private void add_new_venue_Load(object sender, EventArgs e)
+        {
+         
         }
     }
 }

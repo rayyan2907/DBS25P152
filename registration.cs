@@ -102,5 +102,21 @@ namespace Itec_Mangement
             panel3.Controls.Add(part_del);
             part_del.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            registration_student registration_Student = new registration_student(); 
+            registration_Student.TopLevel = false;
+            panel3.Controls.Add(registration_Student);
+            registration_Student.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            team_add team_Add = new team_add();
+            team_Add.TopLevel = false;
+            panel3.Controls.Add(team_Add);
+            team_Add.Show();
+        }
     }
 }

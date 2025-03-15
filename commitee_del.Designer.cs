@@ -41,14 +41,14 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(35, 132);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(224, 21);
+            this.comboBox1.Size = new System.Drawing.Size(243, 21);
             this.comboBox1.TabIndex = 87;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // button3
             // 
             this.button3.AutoEllipsis = true;
-            this.button3.BackColor = System.Drawing.Color.IndianRed;
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.button3.Cursor = System.Windows.Forms.Cursors.AppStarting;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -65,7 +65,7 @@
             // Unassign
             // 
             this.Unassign.AutoEllipsis = true;
-            this.Unassign.BackColor = System.Drawing.Color.IndianRed;
+            this.Unassign.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.Unassign.Cursor = System.Windows.Forms.Cursors.AppStarting;
             this.Unassign.FlatAppearance.BorderSize = 0;
             this.Unassign.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -95,7 +95,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MS UI Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.IndianRed;
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.label1.Location = new System.Drawing.Point(57, 49);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(279, 29);
@@ -117,6 +117,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "commitee_del";
             this.Text = "commitee_del";
+            this.Load += new System.EventHandler(this.commitee_del_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

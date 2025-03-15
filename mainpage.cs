@@ -4,12 +4,14 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Remoting.Metadata.W3cXsd2001;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Itec_Mangement
 {
+   
     public partial class mainpage : Form
     {
         public mainpage()
@@ -21,6 +23,8 @@ namespace Itec_Mangement
 
         private void mainpage_Load(object sender, EventArgs e)
         {
+            SetYear(GlobalData.ItecYear);
+            SetItecId(GlobalData.ItecId);
 
         }
 
@@ -105,6 +109,7 @@ namespace Itec_Mangement
         {
             this.Hide();
             registration registration = new registration();
+
             registration.Show();
         }
 
@@ -120,5 +125,36 @@ namespace Itec_Mangement
             duty duty = new duty();
             this.Hide(); duty.Show();
         }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+        }
+        public void SetYear(string year)
+        {
+            GlobalData.ItecYear = year;
+            label9.Text = "ITEC: " + year;
+        }
+        public void SetItecId(string id)
+        {
+            GlobalData.ItecId = id;
+            //MessageBox.Show(GlobalData.ItecId);
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
+    public static class GlobalData
+    {
+        public static string ItecYear { get; set; }
+        public static string ItecId { get; set; } 
+
+    }
+
 }

@@ -30,13 +30,14 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.button4 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.button10 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -52,6 +53,7 @@
             // 
             // flowLayoutPanel1
             // 
+            this.flowLayoutPanel1.Controls.Add(this.button4);
             this.flowLayoutPanel1.Controls.Add(this.button1);
             this.flowLayoutPanel1.Controls.Add(this.button2);
             this.flowLayoutPanel1.Controls.Add(this.button3);
@@ -61,12 +63,25 @@
             this.flowLayoutPanel1.TabIndex = 1;
             this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.YellowGreen;
+            this.button4.Font = new System.Drawing.Font("HP Simplified", 15.25F);
+            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button4.Location = new System.Drawing.Point(3, 3);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(238, 83);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "Add Categories";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.IndianRed;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(3, 3);
+            this.button1.Location = new System.Drawing.Point(3, 92);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(238, 83);
             this.button1.TabIndex = 0;
@@ -74,6 +89,28 @@
             this.button1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(92)))), ((int)(((byte)(122)))));
+            this.button2.Image = global::Itec_Mangement.Properties.Resources.Screenshot_2025_02_27_2229302;
+            this.button2.Location = new System.Drawing.Point(3, 181);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(238, 83);
+            this.button2.TabIndex = 1;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(82)))), ((int)(((byte)(112)))));
+            this.button3.Image = global::Itec_Mangement.Properties.Resources.Screenshot_2025_02_27_223311__3_;
+            this.button3.Location = new System.Drawing.Point(3, 270);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(238, 83);
+            this.button3.TabIndex = 2;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // panel2
             // 
@@ -114,28 +151,6 @@
             this.button9.TabIndex = 12;
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click);
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(92)))), ((int)(((byte)(122)))));
-            this.button2.Image = global::Itec_Mangement.Properties.Resources.Screenshot_2025_02_27_2229302;
-            this.button2.Location = new System.Drawing.Point(3, 92);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(238, 83);
-            this.button2.TabIndex = 1;
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(82)))), ((int)(((byte)(112)))));
-            this.button3.Image = global::Itec_Mangement.Properties.Resources.Screenshot_2025_02_27_223311__3_;
-            this.button3.Location = new System.Drawing.Point(3, 181);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(238, 83);
-            this.button3.TabIndex = 2;
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // pictureBox2
             // 
@@ -186,5 +201,6 @@
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button button4;
     }
 }

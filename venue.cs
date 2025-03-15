@@ -64,6 +64,7 @@ namespace Itec_Mangement
         {
             edit_venue edit_Venue=new edit_venue();
             edit_Venue.TopLevel = false;
+     
             panel3.Controls.Add(edit_Venue);
             edit_Venue.Show();
         }
@@ -74,6 +75,11 @@ namespace Itec_Mangement
             delete_Venue.TopLevel = false;
             panel3.Controls.Add(delete_Venue);
             delete_Venue.Show();
+        }
+
+        private void venue_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

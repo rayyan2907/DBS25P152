@@ -38,3 +38,43 @@ C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.result.resource
 C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.competetion_results.resources
 C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.rankings.resources
 C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.report.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\Google.Protobuf.dll
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\MySql.Data.dll
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\System.Buffers.dll
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\System.Memory.dll
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\ZstdSharp.dll
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\Google.Protobuf.pdb
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\Google.Protobuf.xml
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\MySql.Data.xml
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\System.Buffers.xml
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\System.Memory.xml
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec Mangement.csproj.SuggestedBindingRedirects.cache
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec Mangement.exe.config
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec Man.9A50A6DC.Up2Date
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.roles_add.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.GlobalData.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.team_add.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.event_categories.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.committeeunasssig.resources

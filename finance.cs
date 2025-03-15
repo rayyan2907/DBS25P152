@@ -43,5 +43,10 @@ namespace Itec_Mangement
             }
 
         }
+
+        private void finance_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

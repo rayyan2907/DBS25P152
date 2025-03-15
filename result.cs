@@ -19,6 +19,9 @@ namespace Itec_Mangement
         public result()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+
+
         }
 
         private void panel3_Paint(object sender, PaintEventArgs e)
@@ -63,6 +66,11 @@ namespace Itec_Mangement
             competetion_Results.TopLevel = false;
             panel3.Controls.Add(competetion_Results);
             competetion_Results.Show();
+        }
+
+        private void result_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

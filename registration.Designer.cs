@@ -29,7 +29,8 @@
         private void InitializeComponent()
         {
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -43,7 +44,8 @@
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.Controls.Add(this.button1);
+            this.flowLayoutPanel1.Controls.Add(this.button6);
+            this.flowLayoutPanel1.Controls.Add(this.button5);
             this.flowLayoutPanel1.Controls.Add(this.button4);
             this.flowLayoutPanel1.Controls.Add(this.button2);
             this.flowLayoutPanel1.Controls.Add(this.button3);
@@ -52,28 +54,40 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(251, 598);
             this.flowLayoutPanel1.TabIndex = 14;
             // 
-            // button1
+            // button6
             // 
-            this.button1.BackColor = System.Drawing.Color.IndianRed;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(3, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(238, 83);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "+";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button6.BackColor = System.Drawing.Color.YellowGreen;
+            this.button6.Font = new System.Drawing.Font("HP Simplified", 14.25F);
+            this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button6.Location = new System.Drawing.Point(3, 3);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(238, 83);
+            this.button6.TabIndex = 43;
+            this.button6.Text = "Add A Participant";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.RosyBrown;
+            this.button5.Font = new System.Drawing.Font("HP Simplified", 14.25F);
+            this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button5.Location = new System.Drawing.Point(3, 92);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(238, 83);
+            this.button5.TabIndex = 42;
+            this.button5.Text = "Add New Team";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
             this.button4.AutoEllipsis = true;
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(84)))), ((int)(((byte)(190)))));
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(84)))), ((int)(((byte)(178)))));
             this.button4.Cursor = System.Windows.Forms.Cursors.AppStarting;
             this.button4.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button4.Location = new System.Drawing.Point(3, 92);
+            this.button4.Location = new System.Drawing.Point(3, 181);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(238, 83);
             this.button4.TabIndex = 41;
@@ -85,7 +99,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(92)))), ((int)(((byte)(122)))));
             this.button2.Image = global::Itec_Mangement.Properties.Resources.Screenshot_2025_02_27_2229302;
-            this.button2.Location = new System.Drawing.Point(3, 181);
+            this.button2.Location = new System.Drawing.Point(3, 270);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(238, 83);
             this.button2.TabIndex = 1;
@@ -96,7 +110,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(82)))), ((int)(((byte)(112)))));
             this.button3.Image = global::Itec_Mangement.Properties.Resources.Screenshot_2025_02_27_223311__3_;
-            this.button3.Location = new System.Drawing.Point(3, 270);
+            this.button3.Location = new System.Drawing.Point(3, 359);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(238, 83);
             this.button3.TabIndex = 2;
@@ -174,6 +188,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
     }
 }

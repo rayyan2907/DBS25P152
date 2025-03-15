@@ -54,5 +54,10 @@ namespace Itec_Mangement
         {
 
         }
+
+        private void registration_for_an_event_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

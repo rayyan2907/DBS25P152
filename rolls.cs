@@ -57,7 +57,7 @@ namespace Itec_Mangement
 
         private void button2_Click(object sender, EventArgs e)
         {
-            committee_update committee_Update = new committee_update();
+            committeeunasssig committee_Update = new committeeunasssig();
             committee_Update.TopLevel = false;
             panel3.Controls.Add(committee_Update);
             committee_Update.Show();
@@ -73,7 +73,7 @@ namespace Itec_Mangement
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            committee_update committee_Update = new committee_update();
+            committeeunasssig committee_Update = new committeeunasssig();
             committee_Update.TopLevel = false;
             panel3.Controls.Add(committee_Update);
             committee_Update.Show();
@@ -83,6 +83,14 @@ namespace Itec_Mangement
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            roles_add roles_add = new roles_add();
+            roles_add.TopLevel = false;
+            panel3.Controls.Add(roles_add);
+            roles_add.Show();
         }
     }
 }

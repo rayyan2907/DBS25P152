@@ -44,18 +44,20 @@
             // 
             this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(235)))));
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox4.Enabled = false;
             this.textBox4.Font = new System.Drawing.Font("MS UI Gothic", 14F);
             this.textBox4.Location = new System.Drawing.Point(40, 231);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(216, 28);
             this.textBox4.TabIndex = 63;
+            this.textBox4.Text = " ";
             this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // button3
             // 
             this.button3.AutoEllipsis = true;
-            this.button3.BackColor = System.Drawing.Color.IndianRed;
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.button3.Cursor = System.Windows.Forms.Cursors.AppStarting;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -72,7 +74,7 @@
             // button2
             // 
             this.button2.AutoEllipsis = true;
-            this.button2.BackColor = System.Drawing.Color.IndianRed;
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.button2.Cursor = System.Windows.Forms.Cursors.AppStarting;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -89,7 +91,7 @@
             // button1
             // 
             this.button1.AutoEllipsis = true;
-            this.button1.BackColor = System.Drawing.Color.IndianRed;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.button1.Cursor = System.Windows.Forms.Cursors.AppStarting;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -167,8 +169,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MS UI Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.IndianRed;
-            this.label1.Location = new System.Drawing.Point(82, 25);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.label1.Location = new System.Drawing.Point(80, 25);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(348, 29);
             this.label1.TabIndex = 54;

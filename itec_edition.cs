@@ -10,8 +10,10 @@ using System.Windows.Forms;
 
 namespace Itec_Mangement
 {
+    
     public partial class itec_edition : Form
     {
+       
         public itec_edition()
         {
             InitializeComponent();
@@ -54,17 +56,129 @@ namespace Itec_Mangement
 
         }
 
-        private async void button1_Click(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            itec_edition_load(sender, e);
+            panel2.Show();
+        }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            
+            panel1.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            panel1.Hide();
+            
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            string itec_id = textBox1.Text.Trim();
+            string year = textBox2.Text.Trim();
+            string theme = textBox3.Text.Trim();
+            string description = textBox4.Text.Trim();
+            bool flag = itec_edition_class.AddEdition(itec_id, year, theme,description);
+
+            if (flag)
+            {
+                MessageBox.Show("Edition Saved Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+            else
+            {
+                MessageBox.Show("Error saving edition.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+            panel2.Hide();
+            
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+      
+
+        private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void itec_edition_load(object sender, EventArgs e)
+        {
+            LoadEditions();
+        }
+
+        private void LoadEditions()
+        {
+            DataTable editions = itec_edition_class.load_editions();
+
+            if (editions != null && editions.Rows.Count > 0)
+            {
+
+                comboBox1.DataSource = editions;  
+                comboBox1.DisplayMember = "year";
+                comboBox1.ValueMember = "itec_id";
+            }
+            else
+            {
+                MessageBox.Show("No editions found.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private async void button5_Click(object sender, EventArgs e)
+        {
+            string year = comboBox1.Text;
+            string Itec_Id= comboBox1.SelectedValue.ToString();
+            //MessageBox.Show(Itec_Id);
+            //MessageBox.Show(year);
             this.Hide();
-            loading l = new loading();
-            l.Show();
-            await Task.Delay(1100);
-            l.Close();
-            mainpage mainpage = new mainpage(); 
-            mainpage.Show();
-            this.Hide();
-          
+
+            loading load = new loading();
+            load.Show();
+
+            await Task.Delay(500);
+
+            load.Hide();
+            mainpage main =new mainpage();
+            main.SetYear(year);
+            main.SetItecId(Itec_Id);
+
+            main.Show();
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

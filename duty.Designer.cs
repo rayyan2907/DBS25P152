@@ -51,7 +51,7 @@
             // button1
             // 
             this.button1.AutoEllipsis = true;
-            this.button1.BackColor = System.Drawing.Color.Green;
+            this.button1.BackColor = System.Drawing.Color.YellowGreen;
             this.button1.Cursor = System.Windows.Forms.Cursors.AppStarting;
             this.button1.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
@@ -66,7 +66,7 @@
             // button2
             // 
             this.button2.AutoEllipsis = true;
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(92)))), ((int)(((byte)(122)))));
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(84)))), ((int)(((byte)(178)))));
             this.button2.Cursor = System.Windows.Forms.Cursors.AppStarting;
             this.button2.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;

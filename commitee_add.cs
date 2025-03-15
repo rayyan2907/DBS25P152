@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace Itec_Mangement
 {
@@ -16,6 +17,7 @@ namespace Itec_Mangement
         public commitee_add()
         {
             InitializeComponent();
+            text4_name();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -50,7 +52,26 @@ namespace Itec_Mangement
             
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Committee Added", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            string name = textBox2.Text.Trim();
+            string id = textBox1.Text.Trim();
+            string itec_id = GlobalData.ItecId;
+
+            bool flag = commitees_class.commitee_add(name,itec_id,id);
+            if (flag)
+            {
+                MessageBox.Show("Committee added Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                textBox2.Clear();
+                textBox1.Clear();
+
+
+            }
+            else
+            {
+                MessageBox.Show("Error adding committee.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
+
+            //MessageBox.Show("Committee Added", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
 
@@ -92,6 +113,11 @@ namespace Itec_Mangement
         private void textBox5_TextChanged(object sender, EventArgs e)
         {
 
+        }
+        public void text4_name()
+        {
+            string year = GlobalData.ItecYear;
+            textBox4.Text = year;
         }
     }
 }

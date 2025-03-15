@@ -30,8 +30,8 @@
         {
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.button1 = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.button10 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -65,15 +65,6 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // panel3
-            // 
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Location = new System.Drawing.Point(238, 135);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(870, 540);
-            this.panel3.TabIndex = 26;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
-            // 
             // button2
             // 
             this.button2.AutoEllipsis = true;
@@ -91,6 +82,15 @@
             this.button2.Text = "Rankings";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // panel3
+            // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Location = new System.Drawing.Point(238, 135);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(870, 540);
+            this.panel3.TabIndex = 26;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // button10
             // 
@@ -136,6 +136,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Name = "result";
             this.Text = "result";
+            this.Load += new System.EventHandler(this.result_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

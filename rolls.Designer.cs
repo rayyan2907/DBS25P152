@@ -31,12 +31,13 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.button4 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -44,6 +45,7 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.Controls.Add(this.button4);
+            this.flowLayoutPanel1.Controls.Add(this.button5);
             this.flowLayoutPanel1.Controls.Add(this.button1);
             this.flowLayoutPanel1.Controls.Add(this.button2);
             this.flowLayoutPanel1.Controls.Add(this.button3);
@@ -56,7 +58,7 @@
             // button4
             // 
             this.button4.AutoEllipsis = true;
-            this.button4.BackColor = System.Drawing.Color.IndianRed;
+            this.button4.BackColor = System.Drawing.Color.YellowGreen;
             this.button4.Cursor = System.Windows.Forms.Cursors.AppStarting;
             this.button4.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonFace;
@@ -75,7 +77,7 @@
             this.button1.Cursor = System.Windows.Forms.Cursors.AppStarting;
             this.button1.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(3, 92);
+            this.button1.Location = new System.Drawing.Point(3, 181);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(238, 83);
             this.button1.TabIndex = 42;
@@ -83,16 +85,20 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button3
+            // button2
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(82)))), ((int)(((byte)(112)))));
-            this.button3.Image = global::Itec_Mangement.Properties.Resources.Screenshot_2025_02_27_223311__3_;
-            this.button3.Location = new System.Drawing.Point(3, 270);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(238, 83);
-            this.button3.TabIndex = 2;
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button2.AutoEllipsis = true;
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(92)))), ((int)(((byte)(122)))));
+            this.button2.Cursor = System.Windows.Forms.Cursors.AppStarting;
+            this.button2.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button2.Location = new System.Drawing.Point(3, 270);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(238, 83);
+            this.button2.TabIndex = 43;
+            this.button2.Text = "Unassign Members Of A Committee";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // panel3
             // 
@@ -101,6 +107,32 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(870, 540);
             this.panel3.TabIndex = 18;
+            // 
+            // button5
+            // 
+            this.button5.AutoEllipsis = true;
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.button5.Cursor = System.Windows.Forms.Cursors.AppStarting;
+            this.button5.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button5.Location = new System.Drawing.Point(3, 92);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(238, 83);
+            this.button5.TabIndex = 44;
+            this.button5.Text = "Create A New Role";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(82)))), ((int)(((byte)(112)))));
+            this.button3.Image = global::Itec_Mangement.Properties.Resources.Screenshot_2025_02_27_223311__3_;
+            this.button3.Location = new System.Drawing.Point(3, 359);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(238, 83);
+            this.button3.TabIndex = 2;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button9
             // 
@@ -133,21 +165,6 @@
             this.pictureBox2.TabIndex = 14;
             this.pictureBox2.TabStop = false;
             // 
-            // button2
-            // 
-            this.button2.AutoEllipsis = true;
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(92)))), ((int)(((byte)(122)))));
-            this.button2.Cursor = System.Windows.Forms.Cursors.AppStarting;
-            this.button2.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button2.Location = new System.Drawing.Point(3, 181);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(238, 83);
-            this.button2.TabIndex = 43;
-            this.button2.Text = "Unassign Members Of A Committee";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
-            // 
             // rolls
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -179,5 +196,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button5;
     }
 }

@@ -77,6 +77,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Name = "finance";
             this.Text = "finance";
+            this.Load += new System.EventHandler(this.finance_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

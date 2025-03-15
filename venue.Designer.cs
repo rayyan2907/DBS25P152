@@ -32,11 +32,11 @@
             this.button9 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -84,6 +84,36 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(240, 593);
             this.flowLayoutPanel1.TabIndex = 17;
             // 
+            // button5
+            // 
+            this.button5.AutoEllipsis = true;
+            this.button5.BackColor = System.Drawing.Color.YellowGreen;
+            this.button5.Cursor = System.Windows.Forms.Cursors.AppStarting;
+            this.button5.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button5.Location = new System.Drawing.Point(3, 3);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(238, 83);
+            this.button5.TabIndex = 44;
+            this.button5.Text = "Add New Venue";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button4
+            // 
+            this.button4.AutoEllipsis = true;
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(84)))), ((int)(((byte)(178)))));
+            this.button4.Cursor = System.Windows.Forms.Cursors.AppStarting;
+            this.button4.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button4.Location = new System.Drawing.Point(3, 92);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(238, 83);
+            this.button4.TabIndex = 43;
+            this.button4.Text = "Assign Venue";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(92)))), ((int)(((byte)(122)))));
@@ -114,36 +144,6 @@
             this.panel3.Size = new System.Drawing.Size(870, 540);
             this.panel3.TabIndex = 18;
             // 
-            // button4
-            // 
-            this.button4.AutoEllipsis = true;
-            this.button4.BackColor = System.Drawing.Color.IndianRed;
-            this.button4.Cursor = System.Windows.Forms.Cursors.AppStarting;
-            this.button4.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button4.Location = new System.Drawing.Point(3, 92);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(238, 83);
-            this.button4.TabIndex = 43;
-            this.button4.Text = "Assign Venue";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button5
-            // 
-            this.button5.AutoEllipsis = true;
-            this.button5.BackColor = System.Drawing.Color.Green;
-            this.button5.Cursor = System.Windows.Forms.Cursors.AppStarting;
-            this.button5.Font = new System.Drawing.Font("HP Simplified", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button5.Location = new System.Drawing.Point(3, 3);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(238, 83);
-            this.button5.TabIndex = 44;
-            this.button5.Text = "Add New Venue";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
             // venue
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -157,6 +157,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Name = "venue";
             this.Text = "venue";
+            this.Load += new System.EventHandler(this.venue_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);

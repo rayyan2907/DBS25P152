@@ -48,8 +48,57 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>packages\BouncyCastle.Cryptography.2.3.1\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.26.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>packages\Google.Protobuf.3.26.1\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.3.8.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>packages\K4os.Compression.LZ4.1.3.8\lib\net462\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.3.8.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>packages\K4os.Compression.LZ4.Streams.1.3.8\lib\net462\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.8.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>packages\K4os.Hash.xxHash.1.0.8\lib\net462\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=9.2.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>packages\MySql.Data.9.2.0\lib\net462\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Configuration.ConfigurationManager.8.0.0\lib\net462\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=8.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Diagnostics.DiagnosticSource.8.0.1\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipelines, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.Pipelines.5.0.2\lib\net461\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -59,6 +108,9 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="ZstdSharp, Version=0.8.0.0, Culture=neutral, PublicKeyToken=8d151af33a4ad5cf, processorArchitecture=MSIL">
+      <HintPath>packages\ZstdSharp.Port.0.8.0\lib\net462\ZstdSharp.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="add_new_venue.cs">
@@ -73,6 +125,14 @@
     <Compile Include="assign_venue.Designer.cs">
       <DependentUpon>assign_venue.cs</DependentUpon>
     </Compile>
+    <Compile Include="commitees_class.cs" />
+    <Compile Include="event_categories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="event_categories.Designer.cs">
+      <DependentUpon>event_categories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="team_class.cs" />
     <Compile Include="commitee_add.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,11 +151,11 @@
     <Compile Include="committee_members_assign.Designer.cs">
       <DependentUpon>committee_members_assign.cs</DependentUpon>
     </Compile>
-    <Compile Include="committee_update.cs">
+    <Compile Include="committeeunasssig.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="committee_update.Designer.cs">
-      <DependentUpon>committee_update.cs</DependentUpon>
+    <Compile Include="committeeunasssig.Designer.cs">
+      <DependentUpon>committeeunasssig.cs</DependentUpon>
     </Compile>
     <Compile Include="competetion_results.cs">
       <SubType>Form</SubType>
@@ -103,6 +163,7 @@
     <Compile Include="competetion_results.Designer.cs">
       <DependentUpon>competetion_results.cs</DependentUpon>
     </Compile>
+    <Compile Include="database.cs" />
     <Compile Include="delete_venue.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -139,6 +200,7 @@
     <Compile Include="events.Designer.cs">
       <DependentUpon>events.cs</DependentUpon>
     </Compile>
+    <Compile Include="events_class.cs" />
     <Compile Include="event_delete.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -163,6 +225,7 @@
     <Compile Include="itec_edition.Designer.cs">
       <DependentUpon>itec_edition.cs</DependentUpon>
     </Compile>
+    <Compile Include="itec_edition_class.cs" />
     <Compile Include="loading.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -201,6 +264,7 @@
     <Compile Include="registration.Designer.cs">
       <DependentUpon>registration.cs</DependentUpon>
     </Compile>
+    <Compile Include="registration_class.cs" />
     <Compile Include="registration_for_an_event.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -225,11 +289,24 @@
     <Compile Include="result.Designer.cs">
       <DependentUpon>result.cs</DependentUpon>
     </Compile>
+    <Compile Include="roles_add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="roles_add.Designer.cs">
+      <DependentUpon>roles_add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="roles_class.cs" />
     <Compile Include="rolls.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="rolls.Designer.cs">
       <DependentUpon>rolls.cs</DependentUpon>
+    </Compile>
+    <Compile Include="team_add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="team_add.Designer.cs">
+      <DependentUpon>team_add.cs</DependentUpon>
     </Compile>
     <Compile Include="track_progress.cs">
       <SubType>Form</SubType>
@@ -258,8 +335,8 @@
     <EmbeddedResource Include="committee_members_assign.resx">
       <DependentUpon>committee_members_assign.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="committee_update.resx">
-      <DependentUpon>committee_update.cs</DependentUpon>
+    <EmbeddedResource Include="committeeunasssig.resx">
+      <DependentUpon>committeeunasssig.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="competetion_results.resx">
       <DependentUpon>competetion_results.cs</DependentUpon>
@@ -281,6 +358,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="events.resx">
       <DependentUpon>events.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="event_categories.resx">
+      <DependentUpon>event_categories.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="event_delete.resx">
       <DependentUpon>event_delete.cs</DependentUpon>
@@ -334,8 +414,14 @@
     <EmbeddedResource Include="result.resx">
       <DependentUpon>result.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="roles_add.resx">
+      <DependentUpon>roles_add.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="rolls.resx">
       <DependentUpon>rolls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="team_add.resx">
+      <DependentUpon>team_add.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="track_progress.resx">
       <DependentUpon>track_progress.cs</DependentUpon>
@@ -343,6 +429,7 @@
     <EmbeddedResource Include="venue.resx">
       <DependentUpon>venue.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -484,6 +571,40 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\image-invert %284%29 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar-date-date-notes-business-office-event-icon-template-black-color-editable-calendar-date-symbol-flat-illustration-for-graphic-and-web-design-free-vector %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1328821578-612x612 %283%29 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29 %281%29 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11319783 %281%29 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1423550966-612x612 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\196081597-competition-icon-in-vector-logotype %282%29 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29 %281%29 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-blue-wireframe-waves-on-dark-smoke-background-abstract-tech-design-for-picture-image_11907560.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yellow and Pink Fruit Bold Illustrative Food Product Logo %282%29 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="venue_allocation_class.cs" />
+    <Compile Include="venue_class.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

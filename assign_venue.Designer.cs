@@ -31,9 +31,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -42,6 +40,8 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // button3
@@ -95,17 +95,6 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox4
-            // 
-            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(235)))));
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("MS UI Gothic", 14F);
-            this.textBox4.Location = new System.Drawing.Point(34, 231);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(216, 28);
-            this.textBox4.TabIndex = 35;
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -113,20 +102,9 @@
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
             this.label5.Location = new System.Drawing.Point(29, 203);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(88, 25);
+            this.label5.Size = new System.Drawing.Size(120, 25);
             this.label5.TabIndex = 34;
-            this.label5.Text = "Venue ID";
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(235)))));
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("MS UI Gothic", 14F);
-            this.textBox2.Location = new System.Drawing.Point(35, 165);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(216, 28);
-            this.textBox2.TabIndex = 33;
+            this.label5.Text = "Venue Name";
             // 
             // label3
             // 
@@ -135,9 +113,9 @@
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
             this.label3.Location = new System.Drawing.Point(29, 137);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 25);
+            this.label3.Size = new System.Drawing.Size(113, 25);
             this.label3.TabIndex = 32;
-            this.label3.Text = "Event ID";
+            this.label3.Text = "Event Name";
             // 
             // textBox1
             // 
@@ -214,12 +192,40 @@
             this.label6.TabIndex = 41;
             this.label6.Text = "Assigned Time";
             // 
+            // comboBox4
+            // 
+            this.comboBox4.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.comboBox4.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(235)))));
+            this.comboBox4.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Location = new System.Drawing.Point(35, 235);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.comboBox4.Size = new System.Drawing.Size(217, 21);
+            this.comboBox4.TabIndex = 56;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.comboBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(231)))), ((int)(((byte)(235)))));
+            this.comboBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(35, 169);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.comboBox1.Size = new System.Drawing.Size(217, 21);
+            this.comboBox1.TabIndex = 57;
+            // 
             // assign_venue
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(870, 540);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.comboBox4);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.dateTimePicker1);
@@ -227,9 +233,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
@@ -237,6 +241,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "assign_venue";
             this.Text = "assign_venue";
+            this.Load += new System.EventHandler(this.assign_venue_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -247,9 +252,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
@@ -258,5 +261,7 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

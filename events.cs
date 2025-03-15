@@ -96,5 +96,13 @@ namespace Itec_Mangement
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            event_categories event_Categories = new event_categories(); 
+            event_Categories.TopLevel = false;
+            panel3.Controls.Add(event_Categories);
+            event_Categories.Show();
+        }
     }
 }

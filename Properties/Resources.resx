@@ -127,9 +127,6 @@
   <data name="istockphoto-1328821578-612x612 (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\istockphoto-1328821578-612x612 (3).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="images (1) (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images (1) (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="image-invert (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image-invert (2)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -139,11 +136,17 @@
   <data name="WhatsApp Image 2025-02-27 at 12.00.58_eae19640" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WhatsApp Image 2025-02-27 at 12.00.58_eae19640.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="image-invert (4) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image-invert (4) (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="rocket-animation-launching-ship-flying-alpha-channel-transparent-background-4k-resolution-free-video" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rocket-animation-launching-ship-flying-alpha-channel-transparent-background-4k-resolution-free-video.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Yellow and Pink Fruit Bold Illustrative Food Product Logo (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Yellow and Pink Fruit Bold Illustrative Food Product Logo (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-blue-wireframe-waves-on-dark-smoke-background-abstract-tech-design-for-picture-image_11907560" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-blue-wireframe-waves-on-dark-smoke-background-abstract-tech-design-for-picture-image_11907560.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="png-transparent-computer-icons-arrow-back-icon-angle-logo-symbol-thumbnail" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\png-transparent-computer-icons-arrow-back-icon-angle-logo-symbol-thumbnail.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,17 +181,23 @@
   <data name="images (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images (1)2.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="image-invert (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\image-invert (4).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="images (1) (1) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (1) (1) (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-1328821578-612x612 (3) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1328821578-612x612 (3) (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (2) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (2) (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="images (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images (3).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="add-button1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\add-button.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="images (1) (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (1) (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="image-invert" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\image-invert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="images (3) (1) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (3) (1) (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="image-invert (1) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image-invert (1) (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,8 +214,20 @@
   <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="196081597-competition-icon-in-vector-logotype (2) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\196081597-competition-icon-in-vector-logotype (2) (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11319783 (1) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11319783 (1) (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calendar-date-date-notes-business-office-event-icon-template-black-color-editable-calendar-date-symbol-flat-illustration-for-graphic-and-web-design-free-vector (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar-date-date-notes-business-office-event-icon-template-black-color-editable-calendar-date-symbol-flat-illustration-for-graphic-and-web-design-free-vector (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="11319783" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\11319783.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-1423550966-612x612 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1423550966-612x612 (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="add-button" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\add-button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,11 +235,14 @@
   <data name="vivid-blurred-colorful-wallpaper-background_58702-2414" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vivid-blurred-colorful-wallpaper-background_58702-2414.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="image-invert (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image-invert (4).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="image-invert (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image-invert (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image-invert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image-invert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Yellow and Pink Fruit Bold Illustrative Food Product Logo (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Yellow and Pink Fruit Bold Illustrative Food Product Logo (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -226,13 +250,19 @@
   <data name="add-button (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\add-button (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="add-button1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add-button.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="images (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images (1)1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="images (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images (4).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="image-invert (4) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\image-invert (4) (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="download (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yellow and Pink Fruit Bold Illustrative Food Product Logo (2) 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yellow and Pink Fruit Bold Illustrative Food Product Logo (2) 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

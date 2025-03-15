@@ -15,6 +15,8 @@ namespace Itec_Mangement
         public report()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+
         }
 
         private void button9_Click(object sender, EventArgs e)

@@ -17,6 +17,8 @@ namespace Itec_Mangement
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new itec_edition());
+    
         }
+        
     }
 }
