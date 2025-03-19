@@ -16,6 +16,8 @@ namespace Itec_Mangement
         public registration_student()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+
         }
         private void label1_Click(object sender, EventArgs e)
         {
@@ -37,6 +39,7 @@ namespace Itec_Mangement
             if (flag)
             {
                 MessageBox.Show("Participant added Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
                 textBox2.Clear();
                 textBox3.Clear();
                 textBox5.Clear();
@@ -207,6 +210,11 @@ namespace Itec_Mangement
         private void label10_Click_1(object sender, EventArgs e)
         {
             
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

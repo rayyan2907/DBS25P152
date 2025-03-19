@@ -68,10 +68,6 @@ namespace Itec_Mangement
 
         private void button2_Click(object sender, EventArgs e)
         {
-            participant_update part_new = new participant_update();
-            part_new.TopLevel = false;
-            panel3.Controls.Add(part_new);
-            part_new.Show();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -81,26 +77,17 @@ namespace Itec_Mangement
 
         private void button4_Click(object sender, EventArgs e)
         {
-            registration_for_an_event reg = new registration_for_an_event();
-            reg.TopLevel = false;
-            panel3.Controls.Add(reg);
-            reg.Show();
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            participant_delete part_del = new participant_delete();
-            part_del.TopLevel = false;
-            panel3.Controls.Add(part_del);
-            part_del.Show();
+
         }
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-            participant_delete part_del = new participant_delete();
-            part_del.TopLevel = false;
-            panel3.Controls.Add(part_del);
-            part_del.Show();
+           
         }
 
         private void button6_Click(object sender, EventArgs e)

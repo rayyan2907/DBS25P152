@@ -13,9 +13,14 @@ namespace Itec_Mangement
 {
     public partial class event_update : Form
     {
-        public event_update()
+        public event_update(string event_id)
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+
+            textBox4.Text=GlobalData.ItecYear.ToString();
+            textBox8.Text=event_id;
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -27,7 +32,7 @@ namespace Itec_Mangement
         {
             string committee_id = null;
             string event_name = textBox2.Text.Trim();
-            string event_id = comboBox4.Text;
+            string event_id = textBox8.Text.Trim();
             string itec_id = GlobalData.ItecId.ToString();
             if (comboBox3.DataSource != null && comboBox3.SelectedValue != null)
             {
@@ -48,6 +53,7 @@ namespace Itec_Mangement
             if (flag)
             {
                 MessageBox.Show("Event Updated Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
                 textBox1.Clear();
                 textBox6.Clear();
                 textBox5.Clear();
@@ -85,7 +91,7 @@ namespace Itec_Mangement
 
         private void event_update_Load(object sender, EventArgs e)
         {
-            load_events();
+            load_data();
         }
 
         private void label6_Click(object sender, EventArgs e)
@@ -103,34 +109,15 @@ namespace Itec_Mangement
 
         }
 
-        public void load_events()
-        {
-            textBox4.Text= GlobalData.ItecYear;
-            int id = Convert.ToInt32(GlobalData.ItecId);
-
-            DataTable dt = events_class.getEvents(id);
-
-            if (dt != null && dt.Rows.Count > 0)
-            {
-                comboBox4.DataSource = dt;
-                comboBox4.DisplayMember = "event_id";
-            }
-            else
-            {
-                MessageBox.Show("No events found.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-            }
-
-        }
+       
 
         private void button4_Click(object sender, EventArgs e)
         {
-            load_data();
           
         }
         public void load_data()
         {
-            string id = comboBox4.Text;
+            string id = textBox8.Text.Trim();
             DataTable dt = events_class.getData(id);
 
             if (dt != null  && dt.Rows.Count>0)
@@ -221,6 +208,11 @@ namespace Itec_Mangement
         private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

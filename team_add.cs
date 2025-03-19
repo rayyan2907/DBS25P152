@@ -18,6 +18,8 @@ namespace Itec_Mangement
         public team_add()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -49,7 +51,8 @@ namespace Itec_Mangement
             bool flag = team_class.addteam(team_name,team_id , event_id);
             if (flag)
             {
-                MessageBox.Show("Participant updated Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Team added Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
                 textBox2.Clear();
                 textBox3.Clear();
 
@@ -57,7 +60,7 @@ namespace Itec_Mangement
             }
             else
             {
-                MessageBox.Show("Error updating participant.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Error adding team.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
             }
         }
@@ -120,6 +123,11 @@ namespace Itec_Mangement
         private void team_add_Load(object sender, EventArgs e)
         {
             get_data();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

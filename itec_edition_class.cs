@@ -45,7 +45,7 @@ namespace Itec_Mangement
         {
             try
             {
-                string query = "select  itec_id,year from itec_editions";
+                string query = "select  itec_id,year from itec_editions order by year asc";
                 return DatabaseHelper.Instance.GetData(query);
 
             }

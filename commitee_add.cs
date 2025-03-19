@@ -17,6 +17,8 @@ namespace Itec_Mangement
         public commitee_add()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+
             text4_name();
         }
 
@@ -56,10 +58,12 @@ namespace Itec_Mangement
             string id = textBox1.Text.Trim();
             string itec_id = GlobalData.ItecId;
 
+
             bool flag = commitees_class.commitee_add(name,itec_id,id);
             if (flag)
             {
                 MessageBox.Show("Committee added Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
                 textBox2.Clear();
                 textBox1.Clear();
 
@@ -118,6 +122,16 @@ namespace Itec_Mangement
         {
             string year = GlobalData.ItecYear;
             textBox4.Text = year;
+        }
+
+        private void commitee_add_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

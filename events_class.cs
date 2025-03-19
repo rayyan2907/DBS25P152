@@ -36,7 +36,11 @@ namespace Itec_Mangement
             return rows > 0;
 
         }
-
+        public static DataTable getData(string id)
+        {
+            string query = $"select * from itec_events i join committees c on c.committee_id = i.committee_id join venues v on v.venue_id = i.venue_id join event_categories ec on ec.event_category_id= i.event_category_id join committees cm on cm.committee_id=i.committee_id where event_id='{id}'";
+            return DatabaseHelper.Instance.GetData(query);
+        }
 
         public static DataTable getEventCategory()
         {
@@ -59,15 +63,11 @@ namespace Itec_Mangement
 
         public static DataTable getEvents(int id)
         {
-            string query = $"select * from itec_events where itec_id={id}";
+            string query = $"select event_name from itec_events where event_id={id}";
             return DatabaseHelper.Instance.GetData(query);
         }
 
-        public static DataTable getData(string id)
-        {
-            string query = $"select * from itec_events i join committees c on c.committee_id = i.committee_id join venues v on v.venue_id = i.venue_id join event_categories ec on ec.event_category_id= i.event_category_id join committees cm on cm.committee_id=i.committee_id where event_id='{id}'";
-            return DatabaseHelper.Instance.GetData(query);
-        }
+        
 
 
         public static bool add_event(string event_name,string event_id,string itec_id,string committee_id,string description,string date,string venue,string event_category_id)
@@ -140,7 +140,7 @@ namespace Itec_Mangement
 
         public static bool event_del(string name)
         {
-            string query = $"delete from itec_events where event_name = '{name}'";
+            string query = $"delete from itec_events where event_id = '{name}'";
             int rows = DatabaseHelper.Instance.Update(query);
             return rows > 0;
         }

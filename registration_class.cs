@@ -13,16 +13,11 @@ namespace Itec_Mangement
 
         public static DataTable getRolesName()
         {  //gets role name
-            try
-            {
+           
                 string query = "select * from roles";
                 return DatabaseHelper.Instance.GetData(query);
-            }
-            catch
-            {
-                MessageBox.Show("Unexpected Error. ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return null;
-            }
+            
+          
         }
         public static bool DeleteName(string name)
         {  // deletes data
@@ -37,16 +32,26 @@ namespace Itec_Mangement
 
         public static DataTable getParticipants(int year)
         {  //gets participants
-            try
-            {
-                string query = $"select * from participants where itec_id = {year} ";
+           
+         
+                string query = $"select name from participants where participant_id = {year} ";
                 return DatabaseHelper.Instance.GetData(query);
-            }
-            catch
-            {
-                MessageBox.Show("Unexpected Error. ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return null;
-            }
+            
+        }
+
+        public static DataTable getEvents(int id)
+        {
+            //get events
+            string query = $"select * from itec_events where itec_id= {id}";
+            return DatabaseHelper.Instance.GetData(query);
+        }
+
+        public static DataTable getStatus()
+        {
+            //get payment status id from lookup
+
+            string query = "select * from lookup where category = 'PaymentStatus' ";
+            return DatabaseHelper.Instance.GetData(query);
         }
 
         public static DataTable getDetails(string id,string year)
@@ -88,7 +93,7 @@ namespace Itec_Mangement
             string query = $"insert into participants values ({participant_int},{itec_id_int},'{name}','{email}','{contact}','{institute}',{role_id_name})";
 
             int rows = DatabaseHelper.Instance.Update(query);
-            return rows > 0;
+            return rows > 0; 
 
 
         }
@@ -120,6 +125,45 @@ namespace Itec_Mangement
             return rows > 0;
 
             
+        }
+
+
+        public static bool register_student(string reg_id, string participant_id, string event_id, string fees, string status_id)
+        {// registering student i an event
+
+            if (string.IsNullOrEmpty(reg_id) || string.IsNullOrEmpty(participant_id) || string.IsNullOrEmpty(event_id) || string.IsNullOrEmpty(fees) || string.IsNullOrEmpty(status_id))
+            {
+
+                MessageBox.Show("Please fill all fields.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+
+                return false;
+            }
+
+            int reg_id_int, participant_id_int, event_id_int, fees_int, status_int;
+
+            bool is_id = int.TryParse(reg_id, out reg_id_int);
+            bool is_fees = int.TryParse(fees, out fees_int);
+
+            event_id_int = Convert.ToInt32(event_id);
+            participant_id_int = Convert.ToInt32(event_id);
+            status_int = Convert.ToInt32(status_id);
+             
+            if (!is_id || !is_fees)
+            {
+                MessageBox.Show("Registration id and fees must be in numbers.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+
+            }
+
+            string query = $"insert into event_participants values ({reg_id_int},{event_id_int},{participant_id_int},{status_int},{fees_int})";
+
+
+
+
+
+            int rows = DatabaseHelper.Instance.Update(query);
+            return rows > 0;
         }
     }
 }

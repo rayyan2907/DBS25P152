@@ -13,19 +13,24 @@
     {
         public partial class participant_update : Form
         {
-            public participant_update()
+            public participant_update(string id)
             {
+                
                 InitializeComponent();
-            }
+                this.StartPosition = FormStartPosition.CenterScreen;
+                textBox7.Text = id;
 
-            private void participant_update_Load(object sender, EventArgs e)
+
+
+        }
+
+        private void participant_update_Load(object sender, EventArgs e)
             {
 
                 string year = GlobalData.ItecYear;
                 textBox4.Text = year;
                 name();
-                participant();
-
+                loadData();
             }
 
             private void button3_Click(object sender, EventArgs e)
@@ -54,7 +59,7 @@
 
 
 
-                string participant_id = comboBox2.Text;
+                string participant_id = textBox7.Text;
                 string name = textBox1.Text.Trim();
                 string email = textBox6.Text.Trim();
                 string contact_details = textBox5.Text.Trim();
@@ -67,11 +72,13 @@
                 if (flag)
                 {
                     MessageBox.Show("Participant updated Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    this.Close();
                    // textBox2.Clear();
                     textBox3.Clear();
                     textBox5.Clear();
                     textBox6.Clear();
                     textBox1.Clear();
+
 
 
                 }
@@ -110,21 +117,7 @@
 
 
         }
-            private void participant()
-            {
-                int year = Convert.ToInt32(GlobalData.ItecId);
-                DataTable dt = registration_class.getParticipants(year);
-                if (dt != null && dt.Rows.Count>0)
-                {
-                    comboBox2.DataSource = dt;
-                    comboBox2.DisplayMember = "participant_id";
-                }
-            else
-            {
-                MessageBox.Show("No participants found.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                comboBox2.Text = "No Participant Found.";
-            }
-        }
+            
 
             private void label2_Click(object sender, EventArgs e)
             {
@@ -146,9 +139,9 @@
 
             }
 
-            private void button4_Click(object sender, EventArgs e)
+            private void loadData() 
             {
-                string participant_id = comboBox2.Text;
+                string participant_id = textBox7.Text;
                 DataTable dt = registration_class.getDetails(participant_id,GlobalData.ItecId);
             
                 if (dt != null && dt.Rows.Count > 0 )
@@ -164,7 +157,7 @@
                 else
                 {
                     MessageBox.Show("No participants found.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    comboBox2.Text = "No Participant Found.";
+                    this.Close();
                 }
             }
 
@@ -177,5 +170,10 @@
             {
 
             }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
+    }
     }

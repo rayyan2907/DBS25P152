@@ -40,9 +40,9 @@ namespace Itec_Mangement
             //return true;
         }
 
-        public static DataTable getCommittees(int itec_id)
+        public static DataTable getCommittees(int id)
         {
-            string query = $"select * from committees where itec_id = {itec_id}";
+            string query = $"select * from committees where committee_id = {id}";
 
             return DatabaseHelper.Instance.GetData(query);
         }
@@ -50,7 +50,7 @@ namespace Itec_Mangement
         
         public static DataTable getMemberNames(string names)
         {
-            string query = $"select * from committee_members cm join committees c on cm.committee_id = c.committee_id where committee_name = '{names}'";
+            string query = $"select name from committee_members where member_id = '{names}'";
 
             return DatabaseHelper.Instance.GetData(query);
         }
@@ -58,7 +58,7 @@ namespace Itec_Mangement
 
         public static bool del_commitee(string name)
         {
-            string query = $"delete from committees where committee_name = '{name}'";
+            string query = $"delete from committees where committee_id = '{name}'";
             int rows = DatabaseHelper.Instance.Update(query);
             return rows > 0;
         }
@@ -66,7 +66,7 @@ namespace Itec_Mangement
 
         public static bool del_commitee_member(string name)
         {
-            string query = $"delete from committee_members where name = '{name}'";
+            string query = $"delete from committee_members where member_id = '{name}'";
             int rows = DatabaseHelper.Instance.Update(query);
             return rows > 0;
         }

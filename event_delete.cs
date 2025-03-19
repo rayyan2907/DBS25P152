@@ -13,9 +13,16 @@ namespace Itec_Mangement
 {
     public partial class event_delete : Form
     {
-        public event_delete()
+        string temp;
+        public event_delete(string event_id)
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+
+            int id = Convert.ToInt32(event_id);
+            temp = event_id;
+            load_data(id);
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -31,14 +38,12 @@ namespace Itec_Mangement
             if (result == DialogResult.Yes)
             {
 
-                string name = comboBox4.Text;
-
-                bool flag = events_class.event_del(name);
+                bool flag = events_class.event_del(temp);
 
                 if (flag)
                 {
                     MessageBox.Show("Event deleted successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    comboBox4.Refresh();
+                    this.Close();
                 }
                 else
                 {
@@ -48,6 +53,7 @@ namespace Itec_Mangement
             else if (result == DialogResult.No)
             {
                 MessageBox.Show("Deletion Cancelled!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
 
             }
 
@@ -60,7 +66,6 @@ namespace Itec_Mangement
 
         private void event_delete_Load(object sender, EventArgs e)
         {
-            load_data();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -68,24 +73,18 @@ namespace Itec_Mangement
             this.Close();
         }
 
-        private void load_data()
+        private void load_data(int id)
         {
-            int id = Convert.ToInt32(GlobalData.ItecId);
             DataTable dt = events_class.getEvents(id);
-
-            if (dt != null || dt.Rows.Count > 0)
-            {
-                comboBox4.DataSource = dt;
-                comboBox4.DisplayMember = "event_name";
-                comboBox4.ValueMember = "event_id";
+            textBox4.Text = dt.Rows[0]["event_name"].ToString();
+            
 
 
-            }
-            else
-            {
-                MessageBox.Show("No events found.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
 
-            }
+        private void button12_Click(object sender, EventArgs e)
+        {
+            this.Close ();
         }
     }
 }

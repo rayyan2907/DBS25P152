@@ -32,10 +32,14 @@ namespace Itec_Mangement
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-           
-            events events = new events();
-            events.Show();
-                
+
+            //events events = new events();
+            //events.Show();
+
+
+            events_datagrid events_New = new events_datagrid();
+            events_New.Show();
+
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -54,9 +58,9 @@ namespace Itec_Mangement
 
         private void button6_Click(object sender, EventArgs e)
         {
-            venue venue = new venue();
             this.Hide();
-            venue.Show();
+            venues_grid venues_Grid = new venues_grid();
+            venues_Grid.Show();
         }
 
         private void button8_Click(object sender, EventArgs e)
@@ -108,22 +112,32 @@ namespace Itec_Mangement
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            registration registration = new registration();
+            //registration registration = new registration();
 
-            registration.Show();
+
+            //registration.Show();
+
+
+            registration_new registration_New  = new registration_new();
+            registration_New.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide() ;
-            rolls rolls = new rolls();
-            rolls.Show();
+            //rolls rolls = new rolls();
+            //rolls.Show();
+
+
+            committees_grid committees_Grid = new committees_grid();
+            committees_Grid.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            duty duty = new duty();
-            this.Hide(); duty.Show();
+            this.Hide(); 
+            duty_grid duty_grid = new duty_grid();
+            duty_grid.Show();
         }
 
         private void label9_Click(object sender, EventArgs e)
@@ -146,6 +160,11 @@ namespace Itec_Mangement
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
         {
 
         }

@@ -19,6 +19,8 @@ namespace Itec_Mangement
         public eventadd()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -78,9 +80,8 @@ namespace Itec_Mangement
 
         private void eventadd_Load(object sender, EventArgs e)
         {
-            string year = GlobalData.ItecYear.ToString();
+                string year = GlobalData.ItecYear.ToString();
             textBox4.Text = year;
-
 
             categories();
             load_venues();
@@ -158,6 +159,8 @@ namespace Itec_Mangement
             if (flag)
             {
                 MessageBox.Show("Event Added Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
+
                 textBox2.Clear();
                 textBox3.Clear();
                 textBox1.Clear();
@@ -261,6 +264,11 @@ namespace Itec_Mangement
         private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

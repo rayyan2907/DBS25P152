@@ -44,8 +44,10 @@ namespace Itec_Mangement
     }
 
         private void button2_Click(object sender, EventArgs e)
-        {
-            event_update event_update = new event_update();
+        { 
+
+            string a = "";
+            event_update event_update = new event_update(a);
             event_update.TopLevel = false;
             panel3.Controls.Add(event_update);
             event_update.Show();
@@ -80,7 +82,8 @@ namespace Itec_Mangement
 
         private void button3_Click(object sender, EventArgs e)
         {
-            event_delete event_delete = new event_delete();
+            string a = "";
+            event_delete event_delete = new event_delete(a);
             event_delete.TopLevel = false;
             panel3.Controls.Add(event_delete);
             event_delete.Show();

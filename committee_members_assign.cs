@@ -15,9 +15,12 @@ namespace Itec_Mangement
 {
     public partial class committee_members_assign : Form
     {
-        public committee_members_assign()
+        string committee_id;
+        public committee_members_assign(string id)
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+            committee_id = id;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -40,12 +43,13 @@ namespace Itec_Mangement
             string member_id = textBox2.Text.Trim();
             string member_name = textBox1.Text.Trim();
             string role_id = comboBox1.SelectedValue.ToString();
-            string committee_id = comboBox2.SelectedValue.ToString();
+          
 
             bool flag = commitees_class.assign_members(member_id, member_name,committee_id,role_id);
             if (flag)
             {
                 MessageBox.Show("Member Assigned Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
                 textBox1.Clear();
                 textBox2.Clear() ;
 
@@ -93,20 +97,11 @@ namespace Itec_Mangement
         public void loadCommittees()
         {
 
-            int id = Convert.ToInt32( GlobalData.ItecId);
+            int id = Convert.ToInt32(committee_id);
             DataTable dt = commitees_class.getCommittees(id);
+            textBox3.Text = dt.Rows[0]["committee_name"].ToString();
 
-            if (dt != null  && dt.Rows.Count > 0) 
-            {
-                comboBox2.DataSource = dt;
-                comboBox2.DisplayMember = "committee_name";
-                comboBox2.ValueMember = "committee_id";
-            }
-            else
-            {
-                MessageBox.Show("No committees found.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            }
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -115,6 +110,16 @@ namespace Itec_Mangement
         }
 
         private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
         }

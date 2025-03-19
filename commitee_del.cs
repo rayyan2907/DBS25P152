@@ -12,9 +12,12 @@ namespace Itec_Mangement
 {
     public partial class commitee_del : Form
     {
-        public commitee_del()
+        string committee_id;
+        public commitee_del(string id)
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+            committee_id = id;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -35,14 +38,14 @@ namespace Itec_Mangement
             if (result == DialogResult.Yes)
             {
 
-                string name = comboBox1.Text;
+                string name = committee_id;
 
                 bool flag = commitees_class.del_commitee(name);
 
                 if (flag)
                 {
                     MessageBox.Show("Committee deleted successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    comboBox1.Refresh();
+                    this.Close();
                 }
                 else
                 {
@@ -52,6 +55,7 @@ namespace Itec_Mangement
             else if (result == DialogResult.No)
             {
                 MessageBox.Show("Deletion Cancelled!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();   
 
             }
 
@@ -81,20 +85,17 @@ namespace Itec_Mangement
 
         private void load_commitees()
         {
-            int id = Convert.ToInt32(GlobalData.ItecId);
+            int id = Convert.ToInt32(committee_id);
             DataTable dt = commitees_class.getCommittees(id);
+            textBox1.Text = dt.Rows[0]["committee_name"].ToString();
 
-            if (dt != null || dt.Rows.Count>0)
-            {
-                comboBox1.DataSource= dt;
-                comboBox1.DisplayMember = "committee_name";
-            }
-            else
-            {
-                MessageBox.Show("No committes found.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            }
 
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

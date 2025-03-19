@@ -39,13 +39,7 @@ namespace Itec_Mangement
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            duty_assignment duty_assignment = new duty_assignment();
-            duty_assignment.TopLevel = false;
-            panel3.Controls.Add(duty_assignment);
-            duty_assignment.Show();
-        }
+       
 
         private void panel3_Paint(object sender, PaintEventArgs e)
         {
@@ -54,10 +48,15 @@ namespace Itec_Mangement
 
         private void button2_Click(object sender, EventArgs e)
         {
-            track_progress track_Progress = new track_progress();
-            track_Progress.TopLevel= false;
-            panel3.Controls.Add(track_Progress);
-            track_Progress.Show();
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+           
+
         }
     }
     }

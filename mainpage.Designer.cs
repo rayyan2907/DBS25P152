@@ -36,6 +36,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.button10 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
@@ -47,7 +48,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label9 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,6 +61,7 @@
             this.label8.Size = new System.Drawing.Size(221, 34);
             this.label8.TabIndex = 18;
             this.label8.Text = "REPORT GENERATION";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label7
             // 
@@ -150,12 +151,24 @@
             this.label1.TabIndex = 11;
             this.label1.Text = "EVENTS";
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Nirmala UI", 14.25F);
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
+            this.label9.Location = new System.Drawing.Point(17, 126);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(81, 25);
+            this.label9.TabIndex = 36;
+            this.label9.Text = "Event ID";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
+            // 
             // button10
             // 
             this.button10.Image = global::Itec_Mangement.Properties.Resources.image_invert__1___1_;
-            this.button10.Location = new System.Drawing.Point(1041, 21);
+            this.button10.Location = new System.Drawing.Point(1066, 21);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(50, 50);
+            this.button10.Size = new System.Drawing.Size(25, 26);
             this.button10.TabIndex = 9;
             this.button10.Text = "]";
             this.button10.UseVisualStyleBackColor = true;
@@ -163,10 +176,10 @@
             // 
             // button9
             // 
-            this.button9.Image = global::Itec_Mangement.Properties.Resources.image_invert1;
+            this.button9.Image = global::Itec_Mangement.Properties.Resources.image_invert__5_1;
             this.button9.Location = new System.Drawing.Point(22, 21);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(50, 50);
+            this.button9.Size = new System.Drawing.Size(28, 26);
             this.button9.TabIndex = 8;
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click);
@@ -264,23 +277,11 @@
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Nirmala UI", 14.25F);
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
-            this.label9.Location = new System.Drawing.Point(17, 126);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(81, 25);
-            this.label9.TabIndex = 36;
-            this.label9.Text = "Event ID";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
-            // 
             // mainpage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1112, 675);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label2);
@@ -314,8 +315,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button5;
@@ -335,5 +334,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button button1;
     }
 }

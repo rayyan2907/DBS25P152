@@ -48,5 +48,36 @@ namespace Itec_Mangement
         {
 
         }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            vendors vendors = new vendors();
+            vendors.TopLevel = false;
+            panel3.Controls.Add(vendors);
+            vendors.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            sponsors sponsors = new sponsors();
+            sponsors.TopLevel = false;
+            panel3.Controls.Add(sponsors);
+            sponsors.Show();
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            transaction transaction = new transaction();
+            transaction.TopLevel = false;
+            panel3.Controls.Add(transaction);
+            transaction.Show();
+        }
     }
+
 }

@@ -103,6 +103,16 @@ namespace Itec_Mangement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap a {
+            get {
+                object obj = ResourceManager.GetObject("a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap add_button {
             get {
                 object obj = ResourceManager.GetObject("add-button", resourceCulture);
@@ -216,6 +226,46 @@ namespace Itec_Mangement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap image_invert__3_ {
+            get {
+                object obj = ResourceManager.GetObject("image-invert (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_invert__3_1 {
+            get {
+                object obj = ResourceManager.GetObject("image-invert (3)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_invert__3_2 {
+            get {
+                object obj = ResourceManager.GetObject("image-invert (3)2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_invert__3_a {
+            get {
+                object obj = ResourceManager.GetObject("image-invert (3)a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap image_invert__4_ {
             get {
                 object obj = ResourceManager.GetObject("image-invert (4)", resourceCulture);
@@ -229,6 +279,36 @@ namespace Itec_Mangement.Properties {
         internal static System.Drawing.Bitmap image_invert__4___1_ {
             get {
                 object obj = ResourceManager.GetObject("image-invert (4) (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_invert__5_ {
+            get {
+                object obj = ResourceManager.GetObject("image-invert (5)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_invert__5_1 {
+            get {
+                object obj = ResourceManager.GetObject("image-invert (5)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_invert__6_ {
+            get {
+                object obj = ResourceManager.GetObject("image-invert (6)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -366,6 +446,16 @@ namespace Itec_Mangement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap images__5_ {
+            get {
+                object obj = ResourceManager.GetObject("images (5)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap istockphoto_1328821578_612x612__3_ {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-1328821578-612x612 (3)", resourceCulture);
@@ -399,6 +489,16 @@ namespace Itec_Mangement.Properties {
         internal static System.Drawing.Bitmap istockphoto_1423550966_612x612__2_ {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-1423550966-612x612 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lbad {
+            get {
+                object obj = ResourceManager.GetObject("lbad", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -548,9 +648,49 @@ namespace Itec_Mangement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Yellow_and_Pink_Fruit_Bold_Illustrative_Food_Product_Logo__2___1_ {
+            get {
+                object obj = ResourceManager.GetObject("Yellow and Pink Fruit Bold Illustrative Food Product Logo (2) (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Yellow_and_Pink_Fruit_Bold_Illustrative_Food_Product_Logo__2___2_ {
+            get {
+                object obj = ResourceManager.GetObject("Yellow and Pink Fruit Bold Illustrative Food Product Logo (2) (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Yellow_and_Pink_Fruit_Bold_Illustrative_Food_Product_Logo__2__1 {
             get {
                 object obj = ResourceManager.GetObject("Yellow and Pink Fruit Bold Illustrative Food Product Logo (2) 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Yellow_and_Pink_Fruit_Bold_Illustrative_Food_Product_Logo__2_1 {
+            get {
+                object obj = ResourceManager.GetObject("Yellow and Pink Fruit Bold Illustrative Food Product Logo (2)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Yellow_and_Pink_Fruit_Bold_Illustrative_Food_Product_Logo__2_2 {
+            get {
+                object obj = ResourceManager.GetObject("Yellow and Pink Fruit Bold Illustrative Food Product Logo (2)2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

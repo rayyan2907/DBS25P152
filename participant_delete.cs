@@ -12,14 +12,18 @@ namespace Itec_Mangement
 {
     public partial class participant_delete : Form
     {
-        public participant_delete()
+        public participant_delete(string id)
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+            int par_id= Convert.ToInt32(id);
+            load_names(par_id);
+
         }
 
         private void participant_delete_Load(object sender, EventArgs e)
         {
-            load_names(sender, e);
+         
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -36,14 +40,14 @@ namespace Itec_Mangement
             {
 
 
-                string name = comboBox1.Text;
+                string name = textBox4.Text;
 
             bool flag = registration_class.DeleteName(name);
 
             if (flag)
             {
                 MessageBox.Show("Participant deleted successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                comboBox1.Refresh();
+                    this.Close();
             }
             else
             {
@@ -53,6 +57,7 @@ namespace Itec_Mangement
             else if (result == DialogResult.No)
             {
                 MessageBox.Show("Deletion Cancelled!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
 
             }
 
@@ -69,21 +74,18 @@ private void button3_Click(object sender, EventArgs e)
         {
 
         }
-        private void load_names(object sender, EventArgs e)
+        private void load_names(int year)
         {
-            int year = Convert.ToInt32(GlobalData.ItecId);
+
             DataTable dt = registration_class.getParticipants(year);
-            if (dt != null && dt.Rows.Count>0)
-            {
-                comboBox1.DataSource = dt;
-                comboBox1.DisplayMember = "name";
+            textBox4.Text = dt.Rows[0]["name"].ToString();
 
-            }
 
-            else { 
-                MessageBox.Show("No participants found.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
 
-            }
+        private void button12_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

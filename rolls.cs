@@ -49,34 +49,22 @@ namespace Itec_Mangement
 
         private void button1_Click(object sender, EventArgs e)
         {
-            committee_members_assign committee_Assign = new committee_members_assign();
-            committee_Assign.TopLevel = false;
-            panel3.Controls.Add(committee_Assign);
-            committee_Assign.Show();
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            committeeunasssig committee_Update = new committeeunasssig();
-            committee_Update.TopLevel = false;
-            panel3.Controls.Add(committee_Update);
-            committee_Update.Show();
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            commitee_del commitee_Delete = new commitee_del();
-            commitee_Delete.TopLevel = false;
-            panel3.Controls.Add(commitee_Delete);
-            commitee_Delete.Show();
+            
         }
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            committeeunasssig committee_Update = new committeeunasssig();
-            committee_Update.TopLevel = false;
-            panel3.Controls.Add(committee_Update);
-            committee_Update.Show();
+           
 
         }
 

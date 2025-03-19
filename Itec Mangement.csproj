@@ -119,6 +119,12 @@
     <Compile Include="add_new_venue.Designer.cs">
       <DependentUpon>add_new_venue.cs</DependentUpon>
     </Compile>
+    <Compile Include="assignMembers_grid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="assignMembers_grid.Designer.cs">
+      <DependentUpon>assignMembers_grid.cs</DependentUpon>
+    </Compile>
     <Compile Include="assign_venue.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,11 +132,44 @@
       <DependentUpon>assign_venue.cs</DependentUpon>
     </Compile>
     <Compile Include="commitees_class.cs" />
+    <Compile Include="committees_grid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="committees_grid.Designer.cs">
+      <DependentUpon>committees_grid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="duty_class.cs" />
+    <Compile Include="duty_grid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="duty_grid.Designer.cs">
+      <DependentUpon>duty_grid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="events_datagrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="events_datagrid.Designer.cs">
+      <DependentUpon>events_datagrid.cs</DependentUpon>
+    </Compile>
     <Compile Include="event_categories.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="event_categories.Designer.cs">
       <DependentUpon>event_categories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="finance_class.cs" />
+    <Compile Include="load_data_class.cs" />
+    <Compile Include="registration_new.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registration_new.Designer.cs">
+      <DependentUpon>registration_new.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sponsors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sponsors.Designer.cs">
+      <DependentUpon>sponsors.cs</DependentUpon>
     </Compile>
     <Compile Include="team_class.cs" />
     <Compile Include="commitee_add.cs">
@@ -314,6 +353,24 @@
     <Compile Include="track_progress.Designer.cs">
       <DependentUpon>track_progress.cs</DependentUpon>
     </Compile>
+    <Compile Include="transaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="transaction.Designer.cs">
+      <DependentUpon>transaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update_duty_status.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update_duty_status.Designer.cs">
+      <DependentUpon>update_duty_status.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vendors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vendors.Designer.cs">
+      <DependentUpon>vendors.cs</DependentUpon>
+    </Compile>
     <Compile Include="venue.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -323,6 +380,9 @@
     <EmbeddedResource Include="add_new_venue.resx">
       <DependentUpon>add_new_venue.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="assignMembers_grid.resx">
+      <DependentUpon>assignMembers_grid.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="assign_venue.resx">
       <DependentUpon>assign_venue.cs</DependentUpon>
     </EmbeddedResource>
@@ -331,6 +391,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="commitee_del.resx">
       <DependentUpon>commitee_del.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="committees_grid.resx">
+      <DependentUpon>committees_grid.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="committee_members_assign.resx">
       <DependentUpon>committee_members_assign.cs</DependentUpon>
@@ -350,6 +413,9 @@
     <EmbeddedResource Include="duty_assignment.resx">
       <DependentUpon>duty_assignment.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="duty_grid.resx">
+      <DependentUpon>duty_grid.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="edit_venue.resx">
       <DependentUpon>edit_venue.cs</DependentUpon>
     </EmbeddedResource>
@@ -358,6 +424,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="events.resx">
       <DependentUpon>events.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="events_datagrid.resx">
+      <DependentUpon>events_datagrid.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="event_categories.resx">
       <DependentUpon>event_categories.cs</DependentUpon>
@@ -405,6 +474,9 @@
     <EmbeddedResource Include="registration_for_an_event.resx">
       <DependentUpon>registration_for_an_event.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="registration_new.resx">
+      <DependentUpon>registration_new.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="registration_student.resx">
       <DependentUpon>registration_student.cs</DependentUpon>
     </EmbeddedResource>
@@ -420,14 +492,29 @@
     <EmbeddedResource Include="rolls.resx">
       <DependentUpon>rolls.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="sponsors.resx">
+      <DependentUpon>sponsors.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="team_add.resx">
       <DependentUpon>team_add.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="track_progress.resx">
       <DependentUpon>track_progress.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="transaction.resx">
+      <DependentUpon>transaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update_duty_status.resx">
+      <DependentUpon>update_duty_status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vendors.resx">
+      <DependentUpon>vendors.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="venue.resx">
       <DependentUpon>venue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="venues_grid.resx">
+      <DependentUpon>venues_grid.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -603,8 +690,56 @@
     <None Include="Resources\Yellow and Pink Fruit Bold Illustrative Food Product Logo %282%29 1.png" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="venues_grid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="venues_grid.Designer.cs">
+      <DependentUpon>venues_grid.cs</DependentUpon>
+    </Compile>
     <Compile Include="venue_allocation_class.cs" />
     <Compile Include="venue_class.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-invert %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-invert %283%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-invert %283%29a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lbad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yellow and Pink Fruit Bold Illustrative Food Product Logo %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yellow and Pink Fruit Bold Illustrative Food Product Logo %282%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yellow and Pink Fruit Bold Illustrative Food Product Logo %282%29 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yellow and Pink Fruit Bold Illustrative Food Product Logo %282%29 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-invert %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-invert %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-invert %286%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-invert %285%291.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
