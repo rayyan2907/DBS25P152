@@ -33,10 +33,12 @@ namespace Itec_Mangement
             string institute = textBox3.Text.Trim();
             string itec_id = GlobalData.ItecId;
             string role_id = comboBox1.SelectedValue.ToString();
+            string team_id = comboBox2.SelectedValue.ToString();
 
 
             bool flag = registration_class.participant_add(participant_id,name,itec_id,email,contact_details,institute,role_id);
-            if (flag)
+            bool flag2 = registration_class.addToTeam(participant_id,team_id);
+            if (flag && flag2)
             {
                 MessageBox.Show("Participant added Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
@@ -183,7 +185,7 @@ namespace Itec_Mangement
             string year = GlobalData.ItecYear;
             textBox4.Text = year;
             name();
-            
+            loadTeams();
 
 
         }
@@ -215,6 +217,19 @@ namespace Itec_Mangement
         private void button12_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        public void loadTeams()
+        {
+            DataTable team = registration_class.getTeams(Convert.ToInt32(GlobalData.ItecId));
+
+            if (team != null)
+            {
+                comboBox2.DataSource = team;
+                comboBox2.DisplayMember = "team_name";
+                comboBox2.ValueMember = "team_id";
+            }
+
         }
     }
 }

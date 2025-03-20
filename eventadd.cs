@@ -80,7 +80,7 @@ namespace Itec_Mangement
 
         private void eventadd_Load(object sender, EventArgs e)
         {
-                string year = GlobalData.ItecYear.ToString();
+            string year = GlobalData.ItecYear.ToString();
             textBox4.Text = year;
 
             categories();

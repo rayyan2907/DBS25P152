@@ -58,11 +58,11 @@ namespace Itec_Mangement
 
         }
 
-        public static DataTable getVenuesAllocations(int id)
+        public static DataTable getVenuesAllocations(int id,int itec)
         {
 
 
-            string query = $"select venue_allocation_id,assigned_date,assigned_time,venue_name,event_name from venue_allocations va join venues v on v.venue_id=va.venue_id join itec_events e on e.event_id=va.event_id join itec_editions i on i.itec_id=e.itec_id where v.venue_id={id}";
+            string query = $"select venue_allocation_id,assigned_date,assigned_time,venue_name,event_name from venue_allocations va join venues v on v.venue_id=va.venue_id join itec_events e on e.event_id=va.event_id join itec_editions i on i.itec_id=e.itec_id where v.venue_id={id} and i.itec_id={itec}";
             return DatabaseHelper.Instance.GetData(query);
 
         }
@@ -93,6 +93,16 @@ namespace Itec_Mangement
 
 
             string query = $"select transaction_id,i.year,event_name,l.value,amount,from_entity_type,to_entity_type,f.description,date_recorded from finances f join itec_editions i on i.itec_id=f.itec_id join itec_events e on e.event_id=f.event_id join lookup l on l.lookup_id=f.type_id where i.itec_id= {id}";
+            return DatabaseHelper.Instance.GetData(query);
+
+        }
+
+
+        public static DataTable getEventResults(int id)
+        {
+
+
+            string query = $"select result_id,event_name,team_name,p.name,position,score,remarks from event_results r join itec_events e on e.event_id=r.event_id join teams t on t.team_id=r.team_id join participants p on p.participant_id = r.participant_id join itec_editions i on e.itec_id=i.itec_id where i.itec_id={id}";
             return DatabaseHelper.Instance.GetData(query);
 
         }

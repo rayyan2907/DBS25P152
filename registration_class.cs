@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
+using System.Xml.Linq;
 
 namespace Itec_Mangement
 {
@@ -18,6 +20,14 @@ namespace Itec_Mangement
                 return DatabaseHelper.Instance.GetData(query);
             
           
+        }
+        public static DataTable getTeams(int id)
+        {  //gets role name
+
+            string query = $"select * from teams t join itec_events e on e.event_id=t.event_id where itec_id = {id}";
+            return DatabaseHelper.Instance.GetData(query);
+
+
         }
         public static bool DeleteName(string name)
         {  // deletes data
@@ -164,6 +174,29 @@ namespace Itec_Mangement
 
             int rows = DatabaseHelper.Instance.Update(query);
             return rows > 0;
+        }
+
+
+        public static bool addToTeam(string participant_id , string team_id)
+        {
+            if (string.IsNullOrEmpty(participant_id) || string.IsNullOrEmpty(team_id))
+            {
+                MessageBox.Show("Please fill all fields.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+
+            }
+
+            int participant_int, team_int;
+
+            bool is_participant = int.TryParse(participant_id, out participant_int);
+            team_int=Convert.ToInt32(team_id);
+
+         
+            string query = $"insert into team_participants values ({team_int},{participant_int})";
+
+            int rows = DatabaseHelper.Instance.Update(query);
+            return rows > 0;
+
         }
     }
 }

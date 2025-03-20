@@ -326,9 +326,59 @@ namespace Itec_Mangement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap image_invert__6___1___1_ {
+            get {
+                object obj = ResourceManager.GetObject("image-invert (6) (1) (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_invert__6___1___2_ {
+            get {
+                object obj = ResourceManager.GetObject("image-invert (6) (1) (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_invert__6___1_1 {
+            get {
+                object obj = ResourceManager.GetObject("image-invert (6) (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap image_invert__6_1 {
             get {
                 object obj = ResourceManager.GetObject("image-invert (6)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_invert__7___1_ {
+            get {
+                object obj = ResourceManager.GetObject("image-invert (7) (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_invert__7___2_ {
+            get {
+                object obj = ResourceManager.GetObject("image-invert (7) (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

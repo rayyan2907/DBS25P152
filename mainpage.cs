@@ -52,8 +52,8 @@ namespace Itec_Mangement
 
         private void button7_Click(object sender, EventArgs e)
         {
-            result result = new result();
-            result.Show();
+            result_grid result_grid = new result_grid();
+            result_grid.Show();
             this.Hide();
 
         }

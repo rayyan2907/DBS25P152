@@ -29,21 +29,34 @@ namespace Itec_Mangement
             string venue_id = venue;
             string events_id = comboBox1.SelectedValue.ToString();
 
-            string date = dateTimePicker1.Value.ToString("yyyy-MM-dd"); 
-            string time = dateTimePicker2.Value.ToString("HH:mm:ss"); 
+            string date = dateTimePicker1.Value.ToString("yyyy-MM-dd");
+            string time = dateTimePicker2.Value.ToString("HH:mm:ss");
 
-                    bool flag = venue_allocation_class.allocate_venue(venue_all_id,venue_id,events_id,date,time);
-            if (flag)
+
+
+            DataTable dt = venue_allocation_class.checkVenueStatus(date,time,Convert.ToInt32(GlobalData.ItecId),Convert.ToInt32( venue));
+
+            if (dt == null || !(dt.Rows.Count > 0))
             {
-                MessageBox.Show("Venue assigned Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                this.Close();
-                textBox1.Clear();
-                
-                
+
+                bool flag = venue_allocation_class.allocate_venue(venue_all_id, venue_id, events_id, date, time);
+                if (flag)
+                {
+                    MessageBox.Show("Venue assigned Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    this.Close();
+                    textBox1.Clear();
+
+
+                }
+                else
+                {
+                    MessageBox.Show("Error assigning venue.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
             }
             else
             {
-                MessageBox.Show("Error assigning venue.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Venue is already Assigned.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
             }
 

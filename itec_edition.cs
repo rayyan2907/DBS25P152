@@ -180,5 +180,25 @@ namespace Itec_Mangement
         {
 
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Are you sure you want to exit?", "Exit Confirmation",
+                                         MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit(); // Close the application
+            }
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            login_page login_page = new login_page();
+            login_page.Show();
+            this.Hide();
+        }
     }
+
 }
+

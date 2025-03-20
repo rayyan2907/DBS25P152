@@ -8,8 +8,16 @@ using System.Windows.Forms;
 
 namespace Itec_Mangement
 {
+    
     public class venue_allocation_class
     {
+        public static DataTable checkVenueStatus(string date, string time,int id,int venue_id)
+        {
+            string query = $"select * from venue_allocations va join itec_events e on e.event_id=va.event_id join itec_editions i on i.itec_id=e.itec_id join venues v on v.venue_id=va.venue_id where assigned_date= '{date}' and assigned_time = '{time}' and i.itec_id={id} and v.venue_id={venue_id}";
+
+
+            return DatabaseHelper.Instance.GetData(query);
+        }
         public static DataTable getVenues()
         {
             string query = "select * from venues";
