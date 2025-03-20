@@ -89,3 +89,8 @@ C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.committees_grid
 C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.assignMembers_grid.resources
 C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.duty_grid.resources
 C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.venues_grid.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.show_allocations_grid.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.finance_grid.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.sponsors_grid.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.vendors_grid.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.transactions_grid.resources

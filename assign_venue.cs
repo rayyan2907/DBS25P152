@@ -13,15 +13,20 @@ namespace Itec_Mangement
 {
     public partial class assign_venue : Form
     {
-        public assign_venue()
+        string venue;
+        public assign_venue(string id)
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+
+            venue= id;
+
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             string venue_all_id = textBox1.Text.Trim();
-            string venue_id = comboBox4.SelectedValue.ToString();
+            string venue_id = venue;
             string events_id = comboBox1.SelectedValue.ToString();
 
             string date = dateTimePicker1.Value.ToString("yyyy-MM-dd"); 
@@ -31,6 +36,7 @@ namespace Itec_Mangement
             if (flag)
             {
                 MessageBox.Show("Venue assigned Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
                 textBox1.Clear();
                 
                 
@@ -77,25 +83,17 @@ namespace Itec_Mangement
 
         public void load_venues()
         {
-            DataTable dt = events_class.getVenues();
+            DataTable dt = venue_class.loadData(venue);
 
-            if (dt != null && dt.Rows.Count > 0)
-            {
-                comboBox4.DataSource = dt;
-                comboBox4.DisplayMember = "venue_name";
-                comboBox4.ValueMember = "venue_id";
-            }
-            else
-            {
-                MessageBox.Show("No venues found.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
+            textBox2.Text = dt.Rows[0]["venue_name"].ToString();
+
         }
 
         public void load_events()
         {
             int id = Convert.ToInt32(GlobalData.ItecId);
 
-            DataTable dt = events_class.getEvents(id);
+            DataTable dt = venue_class.getEvents(id);
 
             if (dt != null && dt.Rows.Count > 0)
             {
@@ -109,6 +107,16 @@ namespace Itec_Mangement
                 comboBox1.Text = "No Events Found.";
 
             }
+
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
 
         }
     }

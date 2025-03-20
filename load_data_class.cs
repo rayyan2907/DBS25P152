@@ -58,5 +58,44 @@ namespace Itec_Mangement
 
         }
 
+        public static DataTable getVenuesAllocations(int id)
+        {
+
+
+            string query = $"select venue_allocation_id,assigned_date,assigned_time,venue_name,event_name from venue_allocations va join venues v on v.venue_id=va.venue_id join itec_events e on e.event_id=va.event_id join itec_editions i on i.itec_id=e.itec_id where v.venue_id={id}";
+            return DatabaseHelper.Instance.GetData(query);
+
+        }
+
+
+        public static DataTable getSponsors()
+        {
+
+
+            string query = $"select sponsor_id , sponsor_name, contact from sponsors ";
+            return DatabaseHelper.Instance.GetData(query);
+
+        }
+
+
+
+        public static DataTable getVendors()
+        {
+
+
+            string query = $"select vendor_id,vendor_name,contact,service_type from vendors ";
+            return DatabaseHelper.Instance.GetData(query);
+
+        }
+
+        public static DataTable getTransactions(int id)
+        {
+
+
+            string query = $"select transaction_id,i.year,event_name,l.value,amount,from_entity_type,to_entity_type,f.description,date_recorded from finances f join itec_editions i on i.itec_id=f.itec_id join itec_events e on e.event_id=f.event_id join lookup l on l.lookup_id=f.type_id where i.itec_id= {id}";
+            return DatabaseHelper.Instance.GetData(query);
+
+        }
+
     }
 }

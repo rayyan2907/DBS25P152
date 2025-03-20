@@ -316,6 +316,26 @@ namespace Itec_Mangement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap image_invert__6___1_ {
+            get {
+                object obj = ResourceManager.GetObject("image-invert (6) (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_invert__6_1 {
+            get {
+                object obj = ResourceManager.GetObject("image-invert (6)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap image_invert1 {
             get {
                 object obj = ResourceManager.GetObject("image-invert1", resourceCulture);
@@ -668,9 +688,39 @@ namespace Itec_Mangement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Yellow_and_Pink_Fruit_Bold_Illustrative_Food_Product_Logo__2___2__processed {
+            get {
+                object obj = ResourceManager.GetObject("Yellow and Pink Fruit Bold Illustrative Food Product Logo (2) (2)_processed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Yellow_and_Pink_Fruit_Bold_Illustrative_Food_Product_Logo__2__1 {
             get {
                 object obj = ResourceManager.GetObject("Yellow and Pink Fruit Bold Illustrative Food Product Logo (2) 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Yellow_and_Pink_Fruit_Bold_Illustrative_Food_Product_Logo__2__processed__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Yellow and Pink Fruit Bold Illustrative Food Product Logo (2)_processed (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Yellow_and_Pink_Fruit_Bold_Illustrative_Food_Product_Logo__2__processed__1___1_ {
+            get {
+                object obj = ResourceManager.GetObject("Yellow and Pink Fruit Bold Illustrative Food Product Logo (2)_processed (1) (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

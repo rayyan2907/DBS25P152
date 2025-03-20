@@ -123,5 +123,10 @@ namespace Itec_Mangement
         {
 
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

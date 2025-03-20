@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Drawing;
+using System.Drawing;   
 using System.Linq;
 using System.Runtime.Remoting.Metadata.W3cXsd2001;
 using System.Text;
@@ -31,7 +31,6 @@ namespace Itec_Mangement
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
 
             //events events = new events();
             //events.Show();
@@ -39,35 +38,40 @@ namespace Itec_Mangement
 
             events_datagrid events_New = new events_datagrid();
             events_New.Show();
+            this.Hide();
 
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            finance finance = new finance();
+            finance_grid finance_Grid = new finance_grid();
+            finance_Grid.Show();
             this.Hide();
-            finance.Show();
+            
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
             result result = new result();
-            this.Hide();
             result.Show();
+            this.Hide();
+
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            this.Hide();
             venues_grid venues_Grid = new venues_grid();
             venues_Grid.Show();
+            this.Hide();
+
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
             report report = new report();
-            this.Hide();
             report.Show();
+            this.Hide();
+
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -93,8 +97,9 @@ namespace Itec_Mangement
         private void button9_Click(object sender, EventArgs e)
         {
             itec_edition itec = new itec_edition();
-            this.Hide();
             itec.Show();
+            this.Hide();
+
 
         }
 
@@ -111,7 +116,6 @@ namespace Itec_Mangement
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Hide();
             //registration registration = new registration();
 
 
@@ -120,24 +124,28 @@ namespace Itec_Mangement
 
             registration_new registration_New  = new registration_new();
             registration_New.Show();
+            this.Hide();
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Hide() ;
             //rolls rolls = new rolls();
             //rolls.Show();
 
 
             committees_grid committees_Grid = new committees_grid();
             committees_Grid.Show();
+            this.Hide();
+
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            this.Hide(); 
             duty_grid duty_grid = new duty_grid();
             duty_grid.Show();
+            this.Hide();
+
         }
 
         private void label9_Click(object sender, EventArgs e)

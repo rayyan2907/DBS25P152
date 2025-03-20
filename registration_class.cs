@@ -14,7 +14,7 @@ namespace Itec_Mangement
         public static DataTable getRolesName()
         {  //gets role name
            
-                string query = "select * from roles";
+                string query = "select * from roles where role_id < 35";
                 return DatabaseHelper.Instance.GetData(query);
             
           

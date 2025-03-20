@@ -12,9 +12,17 @@ namespace Itec_Mangement
 {
     public partial class delete_venue : Form
     {
-        public delete_venue()
+        string venue_id;
+
+        public delete_venue(string id)
         {
             InitializeComponent();
+
+
+            this.StartPosition = FormStartPosition.CenterScreen;
+
+            venue_id = id;
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -30,14 +38,14 @@ namespace Itec_Mangement
             if (result == DialogResult.Yes)
             {
 
-                string venue_name = comboBox1.Text;
+                string venue_name = venue_id;
 
                 bool flag = venue_class.venue_del(venue_name);
 
                 if (flag)
                 {
                     MessageBox.Show("Venue deleted successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    comboBox1.Refresh();
+                    this.Close();
                 }
                 else
                 {
@@ -60,21 +68,16 @@ namespace Itec_Mangement
         private void del(object sender, EventArgs e) 
         
         {
-            DataTable dt = venue_class.load_venues_name();
+            DataTable dt = venue_class.load_venues_name(venue_id);
 
-            if (dt != null && dt.Rows.Count > 0)
-            {
-
-                comboBox1.DataSource = dt;
-                comboBox1.DisplayMember = "venue_name";
+            textBox1.Text = dt.Rows[0]["venue_name"].ToString();
 
 
-            }
-            else
-            {
-                MessageBox.Show("No Venues found.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
+        }
 
+        private void button12_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

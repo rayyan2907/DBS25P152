@@ -37,45 +37,27 @@ namespace Itec_Mangement
 
             
         }
-        public static DataTable load_venues()
-        { //for loading data and adding in combo box
-            try
-            {
-                string query = "select venue_id from venues";
-                return DatabaseHelper.Instance.GetData(query);
-            }
-            catch
-            {
-				MessageBox.Show("Unexpected Error. ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-				return null;
-			}
+        public static DataTable getEvents(int id)
+        {
+            string query = $"select * from itec_events where itec_id={id}";
+            return DatabaseHelper.Instance.GetData(query);
         }
-		public static DataTable load_venues_name()
+        public static DataTable load_venues_name(string id)
 		{ //for loading name and adding in combo box
-			try
-			{
-				string query = "select venue_name from venues";
+			
+				string query = $"select venue_name from venues where venue_id = {id}";
 				return DatabaseHelper.Instance.GetData(query);
-			}
-			catch
-			{
-				MessageBox.Show("Unexpected Error. ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-				return null;
-			}
+			
 		}
 
 		public static DataTable loadData(string venue_id)
         {
-            try
-            {
+            
+            
                 string query = $"select * from venues where venue_id = '{venue_id}'";
                 return DatabaseHelper.Instance.GetData(query);
-            }
-            catch
-            {
-				MessageBox.Show("Unexpected Error. ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-				return null;
-			}
+            
+           
         }
 
 		public static bool VenueUpadte(string venue_id, string venue_name, string capacity, string location)
@@ -108,7 +90,7 @@ namespace Itec_Mangement
 
 		public static bool venue_del(string name)
 		{
-			string query =  $"delete from venues where venue_name = '{name}'";
+			string query =  $"delete from venues where venue_id = '{name}'";
 			int rows = DatabaseHelper.Instance.Update(query);
 			return rows > 0;
 		}

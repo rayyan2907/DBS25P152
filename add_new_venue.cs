@@ -15,6 +15,8 @@ namespace Itec_Mangement
         public add_new_venue()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -29,6 +31,7 @@ namespace Itec_Mangement
             if (flag)
             {
                 MessageBox.Show("Venue Saved Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
                 textBox1.Clear();
                 textBox2.Clear();
                 textBox3.Clear();
@@ -61,6 +64,11 @@ namespace Itec_Mangement
         private void add_new_venue_Load(object sender, EventArgs e)
         {
          
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

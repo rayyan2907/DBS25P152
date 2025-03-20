@@ -56,11 +56,11 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MS UI Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.label1.Location = new System.Drawing.Point(49, 30);
+            this.label1.Location = new System.Drawing.Point(171, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(162, 29);
+            this.label1.Size = new System.Drawing.Size(147, 29);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Add Details";
+            this.label1.Text = "Add Event";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2

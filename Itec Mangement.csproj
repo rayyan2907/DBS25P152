@@ -158,12 +158,36 @@
       <DependentUpon>event_categories.cs</DependentUpon>
     </Compile>
     <Compile Include="finance_class.cs" />
+    <Compile Include="finance_grid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="finance_grid.Designer.cs">
+      <DependentUpon>finance_grid.cs</DependentUpon>
+    </Compile>
     <Compile Include="load_data_class.cs" />
+    <Compile Include="login_page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login_page.Designer.cs">
+      <DependentUpon>login_page.cs</DependentUpon>
+    </Compile>
     <Compile Include="registration_new.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="registration_new.Designer.cs">
       <DependentUpon>registration_new.cs</DependentUpon>
+    </Compile>
+    <Compile Include="show_allocations_grid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="show_allocations_grid.Designer.cs">
+      <DependentUpon>show_allocations_grid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sponsors_grid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sponsors_grid.Designer.cs">
+      <DependentUpon>sponsors_grid.cs</DependentUpon>
     </Compile>
     <Compile Include="sponsors.cs">
       <SubType>Form</SubType>
@@ -359,17 +383,30 @@
     <Compile Include="transaction.Designer.cs">
       <DependentUpon>transaction.cs</DependentUpon>
     </Compile>
+    <Compile Include="transactions_grid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="transactions_grid.Designer.cs">
+      <DependentUpon>transactions_grid.cs</DependentUpon>
+    </Compile>
     <Compile Include="update_duty_status.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="update_duty_status.Designer.cs">
       <DependentUpon>update_duty_status.cs</DependentUpon>
     </Compile>
+    <Compile Include="user_class.cs" />
     <Compile Include="vendors.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="vendors.Designer.cs">
       <DependentUpon>vendors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vendors_grid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vendors_grid.Designer.cs">
+      <DependentUpon>vendors_grid.cs</DependentUpon>
     </Compile>
     <Compile Include="venue.cs">
       <SubType>Form</SubType>
@@ -440,11 +477,17 @@
     <EmbeddedResource Include="finance.resx">
       <DependentUpon>finance.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="finance_grid.resx">
+      <DependentUpon>finance_grid.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="itec_edition.resx">
       <DependentUpon>itec_edition.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="loading.resx">
       <DependentUpon>loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login_page.resx">
+      <DependentUpon>login_page.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mainpage.resx">
       <DependentUpon>mainpage.cs</DependentUpon>
@@ -492,8 +535,14 @@
     <EmbeddedResource Include="rolls.resx">
       <DependentUpon>rolls.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="show_allocations_grid.resx">
+      <DependentUpon>show_allocations_grid.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="sponsors.resx">
       <DependentUpon>sponsors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sponsors_grid.resx">
+      <DependentUpon>sponsors_grid.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="team_add.resx">
       <DependentUpon>team_add.cs</DependentUpon>
@@ -504,11 +553,17 @@
     <EmbeddedResource Include="transaction.resx">
       <DependentUpon>transaction.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="transactions_grid.resx">
+      <DependentUpon>transactions_grid.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="update_duty_status.resx">
       <DependentUpon>update_duty_status.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="vendors.resx">
       <DependentUpon>vendors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vendors_grid.resx">
+      <DependentUpon>vendors_grid.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="venue.resx">
       <DependentUpon>venue.cs</DependentUpon>
@@ -740,6 +795,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\image-invert %285%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yellow and Pink Fruit Bold Illustrative Food Product Logo %282%29 %282%29_processed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-invert %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-invert %286%29 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yellow and Pink Fruit Bold Illustrative Food Product Logo %282%29_processed %281%29 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yellow and Pink Fruit Bold Illustrative Food Product Logo %282%29_processed %281%29.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

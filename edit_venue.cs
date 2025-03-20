@@ -14,16 +14,22 @@ namespace Itec_Mangement
 {
     public partial class edit_venue : Form
     {
-        public edit_venue()
+        string venue_id;
+        public edit_venue(string id)
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+
+            venue_id = id;
+
+            textBox1.Text = venue_id;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             //textBox1.Clear();
 
-            string venue_id = comboBox1.Text.Trim();
+            string venue_id = textBox1.Text.Trim();
             string venue_name = textBox2.Text.Trim();
             string capacity = textBox4.Text.Trim();
             string location = textBox3.Text.Trim();
@@ -33,6 +39,7 @@ namespace Itec_Mangement
             if (flag)
             {
                 MessageBox.Show("Venue upadated Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
                 textBox2.Clear();
                 textBox3.Clear();
                 textBox4.Clear();
@@ -85,25 +92,7 @@ namespace Itec_Mangement
 
         private void venues_load(object sender, EventArgs e)
         {
-            DataTable venues_names = venue_class.load_venues();
-            if (venues_names != null && venues_names.Rows.Count > 0)
-            {
 
-                comboBox1.DataSource = venues_names;
-                comboBox1.DisplayMember = "Venue_ID";
-            }
-            else
-            {
-                MessageBox.Show("No venues found.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-
-
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            string venue_id = comboBox1.Text;
             DataTable dt = venue_class.loadData(venue_id);
 
 
@@ -119,6 +108,18 @@ namespace Itec_Mangement
                 MessageBox.Show("No venues found.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
+
+        }
+        
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

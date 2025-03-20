@@ -54,27 +54,17 @@ namespace Itec_Mangement
 
         private void button4_Click(object sender, EventArgs e)
         {
-            assign_venue assign_Venue= new assign_venue();
-            assign_Venue.TopLevel = false;
-            panel3.Controls.Add(assign_Venue);
-            assign_Venue.Show();
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            edit_venue edit_Venue=new edit_venue();
-            edit_Venue.TopLevel = false;
-     
-            panel3.Controls.Add(edit_Venue);
-            edit_Venue.Show();
+           
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            delete_venue delete_Venue =new delete_venue();
-            delete_Venue.TopLevel = false;
-            panel3.Controls.Add(delete_Venue);
-            delete_Venue.Show();
+            
         }
 
         private void venue_Load(object sender, EventArgs e)

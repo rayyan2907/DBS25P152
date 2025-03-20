@@ -16,6 +16,8 @@ namespace Itec_Mangement
         public vendors()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -25,17 +27,16 @@ namespace Itec_Mangement
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string vendor_id = textBox1.Text.Trim();
             string name = textBox2.Text.Trim();
             string contact = textBox4.Text.Trim();
             string service_type = textBox7.Text.Trim();
 
 
-            bool flag = finance_class.addVendor(vendor_id , name,contact,service_type);
+            bool flag = finance_class.addVendor(name,contact,service_type);
             if (flag)
             {
                 MessageBox.Show("Vendor Added Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                textBox1.Clear();
+                this.Close();
                 textBox2.Clear();
                 textBox4.Clear();
                 textBox7.Clear();
@@ -53,7 +54,6 @@ namespace Itec_Mangement
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.Clear();
             textBox2.Clear();
             textBox4.Clear();
             textBox7.Clear();
@@ -65,6 +65,11 @@ namespace Itec_Mangement
         private void vendors_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
