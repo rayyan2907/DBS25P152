@@ -44,27 +44,19 @@ namespace Itec_Mangement
 
         private void events_datagrid_Load(object sender, EventArgs e)
         {
-            loadData();
         }
 
         public void loadData()
         {
             DataTable dt = load_data_class.getDataEvents(GlobalData.ItecId);
+            dataGridView1.DataSource = dt;
+
             if (dt != null && dt.Rows.Count > 0)
             {
                 dataGridView1.DataSource = dt;
 
             }
-            else
-            {
-
-
-                MessageBox.Show("No events found.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                this.Close();
-                mainpage mainpage = new mainpage();
-                mainpage.Show();
-
-            }
+           
         }
 
         private void button11_Click(object sender, EventArgs e)

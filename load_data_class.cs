@@ -14,6 +14,11 @@ namespace Itec_Mangement
             string query = $"select event_id,event_name,description,event_date,venue_name,c.committee_name as com_name,category_name from itec_events i join committees c on c.committee_id = i.committee_id join venues v on v.venue_id = i.venue_id join event_categories ec on ec.event_category_id= i.event_category_id join committees cm on cm.committee_id=i.committee_id where i.itec_id='{id}' order by event_id asc";
             return DatabaseHelper.Instance.GetData(query);
         }
+        public static DataTable participantRep(string id)
+        {
+            string query = $"select registration_id,name,fee_amount,l.value as pay_status,event_name,email,contact,institute,l1.value as role,event_date from event_participants e join participants p on p.participant_id=e.participant_id join lookup l on l.lookup_id=e.payment_status_id join itec_events ev on ev.event_id=e.event_id join itec_editions i on i.itec_id=ev.itec_id join lookup l1 on l1.lookup_id=p.role_id where ev.itec_id = {id} order by registration_id asc";
+            return DatabaseHelper.Instance.GetData(query);
+        }
         public static DataTable getParticipants(int year)
         {  //gets participants
 

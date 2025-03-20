@@ -51,16 +51,7 @@ namespace Itec_Mangement
                 dataGridView1.DataSource = dt;
 
             }
-            else
-            {
-
-
-                MessageBox.Show("No participants found.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                this.Close();
-                mainpage mainpage = new mainpage();
-                mainpage.Show();
-
-            }
+            
         }
 
         private void button11_Click(object sender, EventArgs e)

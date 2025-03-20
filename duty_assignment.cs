@@ -104,7 +104,7 @@ namespace Itec_Mangement
         public void load_members()
         {
             string name = comboBox1.SelectedValue.ToString();
-            DataTable dt = duty_class.getMembers(name);
+            DataTable dt = duty_class.getMembers(Convert.ToInt32( name));
 
             if (dt != null && dt.Rows.Count > 0)
             {

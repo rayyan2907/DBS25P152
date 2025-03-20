@@ -12,6 +12,7 @@ namespace Itec_Mangement
     {
         public static bool VenueAdd(string venue_id, string venue_name,string capacity, string location)
         {
+            
             if (string.IsNullOrEmpty(venue_id) || string.IsNullOrEmpty(location) || string.IsNullOrEmpty(venue_name) || string.IsNullOrEmpty(capacity)  ) 
             {
 				MessageBox.Show("Please fill all fields.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);

@@ -16,7 +16,7 @@ namespace Itec_Mangement
             return DatabaseHelper.Instance.GetData(query);
         }
         public static DataTable getParticipants(int year)
-        {  //gets participants
+        {  
 
 
             string query = $"select * from participants where itec_id = {year} ";

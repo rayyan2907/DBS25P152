@@ -33,7 +33,7 @@ namespace Itec_Mangement
 
 
 
-        public static DataTable getMembers(string names)
+        public static DataTable getMembers(int names)
         {
             string query = $"select * from committee_members cm join committees c on cm.committee_id = c.committee_id where cm.committee_id = '{names}'";
 

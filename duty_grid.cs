@@ -59,16 +59,7 @@ namespace Itec_Mangement
                 dataGridView1.DataSource = dt;
 
             }
-            else
-            {
-
-
-                MessageBox.Show("No events found.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                this.Close();
-                mainpage mainpage = new mainpage();
-                mainpage.Show();
-
-            }
+           
         }
 
         private void duty_grid_Load(object sender, EventArgs e)

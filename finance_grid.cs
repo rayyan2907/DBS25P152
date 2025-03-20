@@ -71,5 +71,10 @@ namespace Itec_Mangement
             transactions_Grid.Show();
 
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

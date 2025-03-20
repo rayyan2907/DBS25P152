@@ -149,6 +149,7 @@ namespace Itec_Mangement
 
                 return false;
             }
+            //MessageBox.Show(reg_id + "  " + participant_id + "  " + event_id);
 
             int reg_id_int, participant_id_int, event_id_int, fees_int, status_int;
 
@@ -156,7 +157,7 @@ namespace Itec_Mangement
             bool is_fees = int.TryParse(fees, out fees_int);
 
             event_id_int = Convert.ToInt32(event_id);
-            participant_id_int = Convert.ToInt32(event_id);
+            participant_id_int = Convert.ToInt32(participant_id);
             status_int = Convert.ToInt32(status_id);
              
             if (!is_id || !is_fees)
@@ -167,6 +168,7 @@ namespace Itec_Mangement
             }
 
             string query = $"insert into event_participants values ({reg_id_int},{event_id_int},{participant_id_int},{status_int},{fees_int})";
+//            MessageBox.Show(query);
 
 
 

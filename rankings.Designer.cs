@@ -129,9 +129,9 @@
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
             this.label5.Location = new System.Drawing.Point(37, 182);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(126, 25);
+            this.label5.Size = new System.Drawing.Size(158, 25);
             this.label5.TabIndex = 67;
-            this.label5.Text = "Participant ID";
+            this.label5.Text = "Participant Name";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label3
@@ -141,9 +141,9 @@
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
             this.label3.Location = new System.Drawing.Point(37, 116);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 25);
+            this.label3.Size = new System.Drawing.Size(113, 25);
             this.label3.TabIndex = 65;
-            this.label3.Text = "Event ID";
+            this.label3.Text = "Event Name";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label1
@@ -165,9 +165,9 @@
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
             this.label6.Location = new System.Drawing.Point(37, 249);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(79, 25);
+            this.label6.Size = new System.Drawing.Size(111, 25);
             this.label6.TabIndex = 74;
-            this.label6.Text = "Team ID";
+            this.label6.Text = "Team Name";
             // 
             // textBox6
             // 

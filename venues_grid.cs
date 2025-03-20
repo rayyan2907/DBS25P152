@@ -52,16 +52,7 @@ namespace Itec_Mangement
                 dataGridView1.DataSource = dt;
 
             }
-            else
-            {
-
-
-                MessageBox.Show("No venues found.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                this.Close();
-                mainpage mainpage = new mainpage();
-                mainpage.Show();
-
-            }
+            
         }
 
         private void venues_grid_Activated(object sender, EventArgs e)

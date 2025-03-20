@@ -21,6 +21,10 @@ namespace Itec_Mangement
 
             globalid = id;
             int part_id = Convert.ToInt32( id );
+            //MessageBox.Show(id);
+            //MessageBox.Show(globalid);
+
+
             loadParticipants(part_id);
 
         }

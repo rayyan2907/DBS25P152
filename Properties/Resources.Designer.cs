@@ -778,6 +778,16 @@ namespace Itec_Mangement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Yellow_and_Pink_Fruit_Bold_Illustrative_Food_Product_Logo__2__processed__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("Yellow and Pink Fruit Bold Illustrative Food Product Logo (2)_processed (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Yellow_and_Pink_Fruit_Bold_Illustrative_Food_Product_Logo__2_1 {
             get {
                 object obj = ResourceManager.GetObject("Yellow and Pink Fruit Bold Illustrative Food Product Logo (2)1", resourceCulture);

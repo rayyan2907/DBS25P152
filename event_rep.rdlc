@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Tablix Name="Tablix2">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>2.5cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.5cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>4.7225cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.5cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.5cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.5cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>3.16146cm</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.6cm</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox8">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Event id</Value>
+                              <Style>
+                                <FontFamily>MS Gothic</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox8</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox10">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Event name</Value>
+                              <Style>
+                                <FontFamily>MS Gothic</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox10</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox14">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Description</Value>
+                              <Style>
+                                <FontFamily>MS Gothic</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox14</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox12">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Event Date</Value>
+                              <Style>
+                                <FontFamily>MS Gothic</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>MS Gothic</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox12</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox16">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>venue name</Value>
+                              <Style>
+                                <FontFamily>MS Gothic</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox16</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox18">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Committe name</Value>
+                              <Style>
+                                <FontFamily>MS Gothic</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox18</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox22">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Categoory Name</Value>
+                              <Style>
+                                <FontFamily>MS Gothic</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value />
+                              <Style>
+                                <FontFamily>MS Gothic</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox22</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>None</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.6cm</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="event_id">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!event_id.Value</Value>
+                              <Style>
+                                <FontFamily>MS Gothic</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>event_id</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="event_name">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!event_name.Value</Value>
+                              <Style>
+                                <FontFamily>MS Gothic</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>event_name</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="description1">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!description.Value</Value>
+                              <Style>
+                                <FontFamily>MS Gothic</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>description1</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="event_date">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!event_date.Value</Value>
+                              <Style>
+                                <FontFamily>MS Gothic</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>event_date</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="venue_name">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!venue_name.Value</Value>
+                              <Style>
+                                <FontFamily>MS Gothic</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>venue_name</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="com_name">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!com_name.Value</Value>
+                              <Style>
+                                <FontFamily>MS Gothic</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>com_name</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="category_name">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!category_name.Value</Value>
+                              <Style>
+                                <FontFamily>MS Gothic</FontFamily>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>category_name</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <KeepWithGroup>After</KeepWithGroup>
+            </TablixMember>
+            <TablixMember>
+              <Group Name="Details" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>7.03474cm</Top>
+        <Left>2.37808cm</Left>
+        <Height>1.2cm</Height>
+        <Width>20.38396cm</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <FontFamily>MS Gothic</FontFamily>
+          <Color>White</Color>
+        </Style>
+      </Tablix>
+      <Textbox Name="Textbox23">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Events Report</Value>
+                <Style>
+                  <FontFamily>Poppins Black</FontFamily>
+                  <FontSize>25pt</FontSize>
+                  <Color>White</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox23</rd:DefaultName>
+        <Top>3.46287cm</Top>
+        <Left>8.56933cm</Left>
+        <Height>1.89646cm</Height>
+        <Width>7.47417cm</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+    </ReportItems>
+    <Height>8.26042in</Height>
+    <Style>
+      <BackgroundColor>#000037</BackgroundColor>
+    </Style>
+  </Body>
+  <Width>9.3125in</Width>
+  <Page>
+    <PageHeight>29.7cm</PageHeight>
+    <PageWidth>21cm</PageWidth>
+    <LeftMargin>2cm</LeftMargin>
+    <RightMargin>2cm</RightMargin>
+    <TopMargin>2cm</TopMargin>
+    <BottomMargin>2cm</BottomMargin>
+    <ColumnSpacing>0.13cm</ColumnSpacing>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="Itec_Mangement">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>76421787-ad93-4110-ba6d-db1c33702106</rd:DataSourceID>
+    </DataSource>
+    <DataSource Name="event_dataset4">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>19f260a5-8f61-49e9-83f4-6252d71af9f5</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Query>
+        <DataSourceName>event_dataset4</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="event_id">
+          <DataField>event_id</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="event_name">
+          <DataField>event_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="description">
+          <DataField>description</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="event_date">
+          <DataField>event_date</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="venue_name">
+          <DataField>venue_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="com_name">
+          <DataField>com_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="category_name">
+          <DataField>category_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>event_dataset4</rd:DataSetName>
+        <rd:SchemaPath>C:\Users\Rayya\Videos\C#\Itec Mangement\event_dataset4.xsd</rd:SchemaPath>
+        <rd:TableName>Events</rd:TableName>
+        <rd:TableAdapterFillMethod />
+        <rd:TableAdapterGetDataMethod />
+        <rd:TableAdapterName />
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <EmbeddedImages>
+    <EmbeddedImage Name="YellowandPinkFruitBoldIllustrativeFoodProductLogo2_processed11">
+      <MIMEType>image/jpeg</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>18ae7179-ee1f-44be-af5a-d2ad46d3c5de</rd:ReportID>
+</Report>
