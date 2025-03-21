@@ -75,6 +75,18 @@ namespace Itec_Mangement
             participant_report participant_Report = new participant_report();
             participant_Report.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            committee_report committee_Report = new committee_report();
+            committee_Report.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            finance_report finance = new finance_report();
+            finance.Show();
+        }
     }
     }
 

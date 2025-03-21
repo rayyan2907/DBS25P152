@@ -113,18 +113,22 @@ namespace Itec_Mangement
             else if (role == "Faculty")
             {
                 MessageBox.Show("You have logged in as faculty member", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                itec_edition itec_Edition = new itec_edition();
+                itec_Edition.Show();
 
             }
             else if (role == "Student")
             {
                 MessageBox.Show("You have logged in as student", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+                itec_edition itec_Edition = new itec_edition();
+                itec_Edition.Show();
 
             }
             else if (role == "Sponsor")
             {
                 MessageBox.Show("You have logged in as sponsor", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+                itec_edition itec_Edition = new itec_edition();
+                itec_Edition.Show();
             }
         }
 

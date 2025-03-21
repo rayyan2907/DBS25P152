@@ -23,6 +23,7 @@ namespace Itec_Mangement
         {
             loadEvents();
             loadFinaneTypes();
+            loadEntityTypes1();
             loadEntityTypes();
 
             textBox2.Text=GlobalData.ItecYear.ToString();
@@ -106,6 +107,24 @@ namespace Itec_Mangement
                 comboBox1.DisplayMember = "value";
                 comboBox1.ValueMember = "lookup_id";
 
+              
+            }
+            else
+            {
+                MessageBox.Show("Unknown Error.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+
+        }
+
+
+        public void loadEntityTypes1()
+        {
+            DataTable dt = finance_class.getEntityTypes();
+
+            if (dt != null && dt.Rows.Count > 0)
+            {
+            
                 comboBox5.DataSource = dt;
                 comboBox5.DisplayMember = "value";
                 comboBox5.ValueMember = "lookup_id";

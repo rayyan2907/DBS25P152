@@ -11,35 +11,44 @@ using System.Windows.Forms;
 
 namespace Itec_Mangement
 {
-    public partial class participant_report : Form
+    public partial class leaderBoard : Form
     {
-        public participant_report()
+        public leaderBoard()
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
 
         }
 
-        private void participant_report_Load(object sender, EventArgs e)
+        private void button12_Click(object sender, EventArgs e)
         {
-            loadparti();
+            DialogResult result = MessageBox.Show("Are you sure you want to exit?", "Exit Confirmation",
+                                       MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit(); // Close the application
+            }
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void button13_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
+        private void leaderBoard_Load(object sender, EventArgs e)
+        {
+            loadLeaderBoard();
+        }
 
-        public void loadparti()
+        public void loadLeaderBoard()
         {
 
             try
             {
 
 
-                DataTable dt = load_data_class.participantRep(Convert.ToInt32( GlobalData.ItecId));
-                
+                DataTable dt = load_data_class.Leaderboard(Convert.ToInt32(GlobalData.ItecId));
 
                 reportViewer1.LocalReport.DataSources.Clear();
                 ReportDataSource rds = new ReportDataSource("DataSet1", dt);
@@ -52,22 +61,6 @@ namespace Itec_Mangement
                 MessageBox.Show("Error: " + ex.Message, "Report Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
-        }
-
-        private void button12_Click(object sender, EventArgs e)
-        {
-            DialogResult result = MessageBox.Show("Are you sure you want to exit?", "Exit Confirmation",
-                                         MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-            if (result == DialogResult.Yes)
-            {
-                Application.Exit(); // Close the application
-            }
-        }
-
-        private void button13_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

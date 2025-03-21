@@ -57,7 +57,7 @@ namespace Itec_Mangement
 
 
             string query = $"insert into event_results (event_id,participant_id,team_id,position,score,remarks) values ({event_int},{participant_int},{team_int},{position_int},{score_decimal},'{remarks}')";
-
+          //  MessageBox.Show(query);
             int rows = DatabaseHelper.Instance.Update(query);
 
 

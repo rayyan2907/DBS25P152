@@ -151,3 +151,6 @@ C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\zh-CHS\Microsoft.ReportViewer.
 C:\Users\Rayya\Videos\C#\Itec Mangement\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.event_report.resources
 C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.participant_report.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.committee_report.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.finance_report.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.leaderBoard.resources

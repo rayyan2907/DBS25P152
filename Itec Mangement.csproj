@@ -149,6 +149,11 @@
     <Compile Include="assign_venue.Designer.cs">
       <DependentUpon>assign_venue.cs</DependentUpon>
     </Compile>
+    <Compile Include="committee_data.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>committee_data.xsd</DependentUpon>
+    </Compile>
     <Compile Include="committee_report.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -169,11 +174,32 @@
     <Compile Include="event_report.Designer.cs">
       <DependentUpon>event_report.cs</DependentUpon>
     </Compile>
+    <Compile Include="expense_data.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>expense_data.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="finances.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>finances.xsd</DependentUpon>
+    </Compile>
     <Compile Include="finance_report.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="finance_report.Designer.cs">
       <DependentUpon>finance_report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="leaderBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="leaderBoard.Designer.cs">
+      <DependentUpon>leaderBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="leaderboard1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>leaderboard.xsd</DependentUpon>
     </Compile>
     <Compile Include="participant_report.cs">
       <SubType>Form</SubType>
@@ -508,6 +534,10 @@
     <EmbeddedResource Include="committeeunasssig.resx">
       <DependentUpon>committeeunasssig.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="committee_rep.rdlc" />
+    <EmbeddedResource Include="committee_report.resx">
+      <DependentUpon>committee_report.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="competetion_results.resx">
       <DependentUpon>competetion_results.cs</DependentUpon>
     </EmbeddedResource>
@@ -554,8 +584,16 @@
     <EmbeddedResource Include="finance_grid.resx">
       <DependentUpon>finance_grid.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="finance_rep.rdlc" />
+    <EmbeddedResource Include="finance_report.resx">
+      <DependentUpon>finance_report.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="itec_edition.resx">
       <DependentUpon>itec_edition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="leaderBoard.rdlc" />
+    <EmbeddedResource Include="leaderBoard.resx">
+      <DependentUpon>leaderBoard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="loading.resx">
       <DependentUpon>loading.cs</DependentUpon>
@@ -655,6 +693,17 @@
     <EmbeddedResource Include="venues_grid.resx">
       <DependentUpon>venues_grid.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="committee_data.xsc">
+      <DependentUpon>committee_data.xsd</DependentUpon>
+    </None>
+    <None Include="committee_data.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>committee_data.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="committee_data.xss">
+      <DependentUpon>committee_data.xsd</DependentUpon>
+    </None>
     <None Include="event_dataset4.xsc">
       <DependentUpon>event_dataset4.xsd</DependentUpon>
     </None>
@@ -665,6 +714,39 @@
     </None>
     <None Include="event_dataset4.xss">
       <DependentUpon>event_dataset4.xsd</DependentUpon>
+    </None>
+    <None Include="expense_data.xsc">
+      <DependentUpon>expense_data.xsd</DependentUpon>
+    </None>
+    <None Include="expense_data.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>expense_data.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="expense_data.xss">
+      <DependentUpon>expense_data.xsd</DependentUpon>
+    </None>
+    <None Include="finances.xsc">
+      <DependentUpon>finances.xsd</DependentUpon>
+    </None>
+    <None Include="finances.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>finances.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="finances.xss">
+      <DependentUpon>finances.xsd</DependentUpon>
+    </None>
+    <None Include="leaderboard.xsc">
+      <DependentUpon>leaderboard.xsd</DependentUpon>
+    </None>
+    <None Include="leaderboard.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>leaderboard1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="leaderboard.xss">
+      <DependentUpon>leaderboard.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="particpants_dataset.xsc">

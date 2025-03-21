@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="committee_data" targetNamespace="http://tempuri.org/committee_data.xsd" xmlns:mstns="http://tempuri.org/committee_data.xsd" xmlns="http://tempuri.org/committee_data.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="committee_data" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="committee_data" msprop:Generator_DataSetName="committee_data">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_UserTableName="DataTable1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="duty_id" msprop:Generator_ColumnPropNameInRow="duty_id" msprop:Generator_ColumnPropNameInTable="duty_idColumn" msprop:Generator_ColumnVarNameInTable="columnduty_id" msprop:Generator_UserColumnName="duty_id" type="xs:string" minOccurs="0" />
+              <xs:element name="committee_name" msprop:Generator_ColumnPropNameInRow="committee_name" msprop:Generator_ColumnPropNameInTable="committee_nameColumn" msprop:Generator_ColumnVarNameInTable="columncommittee_name" msprop:Generator_UserColumnName="committee_name" type="xs:string" minOccurs="0" />
+              <xs:element name="assigned_to" msprop:Generator_ColumnPropNameInRow="assigned_to" msprop:Generator_ColumnPropNameInTable="assigned_toColumn" msprop:Generator_ColumnVarNameInTable="columnassigned_to" msprop:Generator_UserColumnName="assigned_to" type="xs:string" minOccurs="0" />
+              <xs:element name="task_description" msprop:Generator_ColumnPropNameInRow="task_description" msprop:Generator_ColumnPropNameInTable="task_descriptionColumn" msprop:Generator_ColumnVarNameInTable="columntask_description" msprop:Generator_UserColumnName="task_description" type="xs:string" minOccurs="0" />
+              <xs:element name="deadline" msprop:Generator_ColumnPropNameInRow="deadline" msprop:Generator_ColumnPropNameInTable="deadlineColumn" msprop:Generator_ColumnVarNameInTable="columndeadline" msprop:Generator_UserColumnName="deadline" type="xs:string" minOccurs="0" />
+              <xs:element name="value" msprop:Generator_ColumnPropNameInRow="value" msprop:Generator_ColumnPropNameInTable="valueColumn" msprop:Generator_ColumnVarNameInTable="columnvalue" msprop:Generator_UserColumnName="value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

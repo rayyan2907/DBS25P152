@@ -69,5 +69,11 @@ namespace Itec_Mangement
             rankings rankings = new rankings();
             rankings.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            leaderBoard leaderBoard = new leaderBoard();
+            leaderBoard.Show();
+        }
     }
 }
