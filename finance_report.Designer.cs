@@ -28,32 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // reportViewer1
             // 
-            this.pictureBox1.Image = global::Itec_Mangement.Properties.Resources.Yellow_and_Pink_Fruit_Bold_Illustrative_Food_Product_Logo__2___2_;
-            this.pictureBox1.Location = new System.Drawing.Point(408, -91);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(275, 275);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 51;
-            this.pictureBox1.TabStop = false;
-            // 
-            // button13
-            // 
-            this.button13.Image = global::Itec_Mangement.Properties.Resources.image_invert__5_1;
-            this.button13.Location = new System.Drawing.Point(18, 14);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(28, 26);
-            this.button13.TabIndex = 52;
-            this.button13.UseVisualStyleBackColor = true;
-            this.button13.Click += new System.EventHandler(this.button13_Click);
+            this.reportViewer1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(55)))));
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "Itec_Mangement.finance_rep.rdlc";
+            this.reportViewer1.Location = new System.Drawing.Point(-2, 92);
+            this.reportViewer1.Name = "reportViewer1";
+            this.reportViewer1.ServerReport.BearerToken = null;
+            this.reportViewer1.Size = new System.Drawing.Size(1127, 583);
+            this.reportViewer1.TabIndex = 50;
             // 
             // button12
             // 
@@ -66,15 +56,25 @@
             this.button12.UseVisualStyleBackColor = true;
             this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
-            // reportViewer1
+            // button13
             // 
-            this.reportViewer1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(55)))));
-            this.reportViewer1.LocalReport.ReportEmbeddedResource = "Itec_Mangement.event_rep.rdlc";
-            this.reportViewer1.Location = new System.Drawing.Point(-2, 92);
-            this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.ServerReport.BearerToken = null;
-            this.reportViewer1.Size = new System.Drawing.Size(1127, 583);
-            this.reportViewer1.TabIndex = 50;
+            this.button13.Image = global::Itec_Mangement.Properties.Resources.image_invert__5_1;
+            this.button13.Location = new System.Drawing.Point(18, 14);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(28, 26);
+            this.button13.TabIndex = 52;
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Itec_Mangement.Properties.Resources.Yellow_and_Pink_Fruit_Bold_Illustrative_Food_Product_Logo__2___2_;
+            this.pictureBox1.Location = new System.Drawing.Point(408, -91);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(275, 275);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 51;
+            this.pictureBox1.TabStop = false;
             // 
             // finance_report
             // 

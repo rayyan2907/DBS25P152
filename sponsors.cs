@@ -38,12 +38,12 @@ namespace Itec_Mangement
             bool flag = finance_class.addSponsor(name, contact);
             if (flag)
             {
-                MessageBox.Show("Event Added Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Sponsor Added Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
             }
             else
             {
-                MessageBox.Show("Error adding event.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Error adding sponsor.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
 
             }

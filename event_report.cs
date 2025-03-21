@@ -23,7 +23,9 @@ namespace Itec_Mangement
         private void event_report_Load(object sender, EventArgs e)
         {
             loadEvents();
-           
+
+            // this.reportViewer2.RefreshReport();
+          //  this.reportViewer2.RefreshReport();
         }
 
         private void button12_Click(object sender, EventArgs e)
