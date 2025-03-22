@@ -79,28 +79,27 @@ namespace Itec_Mangement
         }
 
 
-        public static bool participant_add(string participant_id ,string name,string itec_id,string email,string contact,string institute,string role_id)
+        public static bool participant_add(string name,string itec_id,string email,string contact,string institute,string role_id)
         {
-            if (string.IsNullOrEmpty(participant_id) || string.IsNullOrEmpty(name) || string.IsNullOrEmpty(itec_id) || string.IsNullOrEmpty(email) || string.IsNullOrEmpty(contact) || string.IsNullOrEmpty(institute) || string.IsNullOrEmpty(role_id))
+            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(itec_id) || string.IsNullOrEmpty(email) || string.IsNullOrEmpty(contact) || string.IsNullOrEmpty(institute) || string.IsNullOrEmpty(role_id))
             {
                 MessageBox.Show("Please fill all fields.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return false;
 
             }
 
-            int participant_int, itec_id_int, role_id_name;
+            int  itec_id_int, role_id_name;
 
-            bool is_participant = int.TryParse(participant_id, out participant_int);
             bool is_itec=int.TryParse(itec_id,  out itec_id_int);
             bool is_role=int.TryParse(role_id, out role_id_name);
 
-            if (!is_participant || !is_itec ||!is_role)
+            if ( !is_itec ||!is_role)
             {
                 MessageBox.Show("IDs must be in numbers.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return false;
             }
 
-            string query = $"insert into participants values ({participant_int},{itec_id_int},'{name}','{email}','{contact}','{institute}',{role_id_name})";
+            string query = $"insert into participants (itec_id,name,email,contact,institute,role_id) values ({itec_id_int},'{name}','{email}','{contact}','{institute}',{role_id_name})";
 
             int rows = DatabaseHelper.Instance.Update(query);
             return rows > 0; 
@@ -138,10 +137,10 @@ namespace Itec_Mangement
         }
 
 
-        public static bool register_student(string reg_id, string participant_id, string event_id, string fees, string status_id)
+        public static bool register_student( string participant_id, string event_id, string fees, string status_id)
         {// registering student i an event
 
-            if (string.IsNullOrEmpty(reg_id) || string.IsNullOrEmpty(participant_id) || string.IsNullOrEmpty(event_id) || string.IsNullOrEmpty(fees) || string.IsNullOrEmpty(status_id))
+            if ( string.IsNullOrEmpty(participant_id) || string.IsNullOrEmpty(event_id) || string.IsNullOrEmpty(fees) || string.IsNullOrEmpty(status_id))
             {
 
                 MessageBox.Show("Please fill all fields.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -151,23 +150,22 @@ namespace Itec_Mangement
             }
             //MessageBox.Show(reg_id + "  " + participant_id + "  " + event_id);
 
-            int reg_id_int, participant_id_int, event_id_int, fees_int, status_int;
+            int  participant_id_int, event_id_int, fees_int, status_int;
 
-            bool is_id = int.TryParse(reg_id, out reg_id_int);
             bool is_fees = int.TryParse(fees, out fees_int);
 
             event_id_int = Convert.ToInt32(event_id);
             participant_id_int = Convert.ToInt32(participant_id);
             status_int = Convert.ToInt32(status_id);
              
-            if (!is_id || !is_fees)
+            if ( !is_fees)
             {
                 MessageBox.Show("Registration id and fees must be in numbers.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return false;
 
             }
 
-            string query = $"insert into event_participants values ({reg_id_int},{event_id_int},{participant_id_int},{status_int},{fees_int})";
+            string query = $"insert into event_participants (event_id,participant_id,payment_status_id,fee_amount) values ({event_id_int},{participant_id_int},{status_int},{fees_int})";
 //            MessageBox.Show(query);
 
 

@@ -116,9 +116,9 @@
             this.label3.Location = new System.Drawing.Point(29, 166);
             this.label3.Name = "label3";
             this.label3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label3.Size = new System.Drawing.Size(154, 25);
+            this.label3.Size = new System.Drawing.Size(180, 25);
             this.label3.TabIndex = 74;
-            this.label3.Text = "Enter Your Name";
+            this.label3.Text = "Create a User Name";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2

@@ -41,7 +41,6 @@ namespace Itec_Mangement
         private void button1_Click(object sender, EventArgs e)
         {
 
-            textBox1.Clear();
             textBox6.Clear ();
            
             MessageBox.Show("All Cleared", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -50,8 +49,6 @@ namespace Itec_Mangement
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string reg_id = textBox1.Text.Trim();
-           // MessageBox.Show(globalid);
             string participant_id  = globalid;
             string event_id = comboBox3.SelectedValue.ToString();
             string fees = textBox6.Text.Trim();
@@ -59,12 +56,11 @@ namespace Itec_Mangement
 
 
 
-            bool flag = registration_class.register_student(reg_id, participant_id,event_id,fees,status_id);
+            bool flag = registration_class.register_student(participant_id,event_id,fees,status_id);
             if (flag)
             {
                 MessageBox.Show("Registered Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
-                textBox1.Clear();
                 textBox6.Clear();
 
             }

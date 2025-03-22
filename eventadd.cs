@@ -70,7 +70,6 @@ namespace Itec_Mangement
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            textBox1.Clear();
             textBox2.Clear();
             textBox3.Clear();
             textBox4.Clear();
@@ -138,7 +137,6 @@ namespace Itec_Mangement
         {
             string committee_id = null;
             string event_name = textBox2.Text.Trim();
-            string event_id = textBox1.Text.Trim();
             string itec_id = GlobalData.ItecId.ToString();
             if (comboBox3.DataSource != null && comboBox3.SelectedValue != null)
             {
@@ -155,7 +153,7 @@ namespace Itec_Mangement
             string event_categorty_id = comboBox2.SelectedValue.ToString();
 
 
-            bool flag = events_class.add_event(event_name,event_id,itec_id,committee_id,description,date,venue_id,event_categorty_id);
+            bool flag = events_class.add_event(event_name,itec_id,committee_id,description,date,venue_id,event_categorty_id);
             if (flag)
             {
                 MessageBox.Show("Event Added Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -163,7 +161,6 @@ namespace Itec_Mangement
 
                 textBox2.Clear();
                 textBox3.Clear();
-                textBox1.Clear();
 
 
             }

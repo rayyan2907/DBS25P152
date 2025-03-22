@@ -3,244 +3,140 @@
   "WorkspaceRootPath": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\finance_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:finance_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\venue_allocation_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:venue_allocation_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\load_data_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:load_data_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\assign_venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:assign_venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\sponsors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:sponsors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\assign_venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:assign_venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\sponsors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:sponsors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\finance_grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:finance_grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\finance_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:finance_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\sponsors_grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:sponsors_grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\registration_for_an_event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:registration_for_an_event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\event_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:event_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\event_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:event_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\event_rep.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:event_rep.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\event_dataset4.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:event_dataset4.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\committee_rep.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:committee_rep.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\leaderboard.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:leaderboard.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\leaderboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:leaderboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\venues_grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:venues_grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\venues_grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:venues_grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\login_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:login_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\login_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:login_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\leaderboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:leaderboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\finance_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:finance_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\leaderboard.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:leaderboard.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\finance_rep.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:finance_rep.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\result_grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:result_grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\result_grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:result_grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\committee_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:committee_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\registration_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:registration_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\registration_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:registration_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\venue_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\venue_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:venue_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\results_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:results_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\add_new_venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:add_new_venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\rankings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:rankings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\add_new_venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:add_new_venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\rankings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:rankings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\venues_grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:venues_grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\expense_data.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:expense_data.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\vendors_grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:vendors_grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\finances.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:finances.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\finance_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:finance_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\itec_edition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:itec_edition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\registration_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:registration_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\team_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:team_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\user_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:user_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\itec_edition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:itec_edition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\itec_edition_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:itec_edition_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\finance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:finance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\registration_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:registration_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\committee_data.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:committee_data.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\duty_grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:duty_grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\duty_assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:duty_assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\participant_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:participant_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\vendors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:vendors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\duty_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\duty_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:duty_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\duty_assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\duty_assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:duty_assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\duty_assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:duty_assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\duty_grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:duty_grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\duty_grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:duty_grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\registration_for_an_event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\duty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:duty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\commitees_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:commitees_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\commitee_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:commitee_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\committee_members_assign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:committee_members_assign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\committee_members_assign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:committee_members_assign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\commitee_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:commitee_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\team_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:team_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\team_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:team_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\track_progress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:track_progress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\team_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:team_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\registration_new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:registration_new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\registration_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:registration_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\eventadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:eventadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\itec_edition_for_sponosrs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:itec_edition_for_sponosrs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\registration_for_an_event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:registration_for_an_event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\participant_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:participant_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\registration_for_an_event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:registration_for_an_event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\event_dataset4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:event_dataset4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\registration_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:registration_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\events_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:events_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|c:\\users\\rayya\\videos\\c#\\itec mangement\\eventadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9371A84-5D42-439B-96AB-450A767DFE54}|Itec Mangement.csproj|solutionrelative:eventadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -250,721 +146,433 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "event_report.cs",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\event_report.cs",
-              "RelativeDocumentMoniker": "event_report.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\event_report.cs",
-              "RelativeToolTip": "event_report.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAvwEoAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 28,
+              "Title": "itec_edition_for_sponosrs.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\itec_edition_for_sponosrs.cs",
+              "RelativeDocumentMoniker": "itec_edition_for_sponosrs.cs",
+              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\itec_edition_for_sponosrs.cs [Design]",
+              "RelativeToolTip": "itec_edition_for_sponosrs.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:00:16.269Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "event_report.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\event_report.cs",
-              "RelativeDocumentMoniker": "event_report.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\event_report.cs [Design]",
-              "RelativeToolTip": "event_report.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:00:14.331Z",
+              "WhenOpened": "2025-03-22T09:23:31.707Z",
               "IsPinned": true,
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "event_dataset4.xsd",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\event_dataset4.xsd",
-              "RelativeDocumentMoniker": "event_dataset4.xsd",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\event_dataset4.xsd",
-              "RelativeToolTip": "event_dataset4.xsd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
-              "WhenOpened": "2025-03-21T14:02:02.317Z",
-              "IsPinned": true,
+              "DocumentIndex": 0,
+              "Title": "venue_allocation_class.cs",
+              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\venue_allocation_class.cs",
+              "RelativeDocumentMoniker": "venue_allocation_class.cs",
+              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\venue_allocation_class.cs*",
+              "RelativeToolTip": "venue_allocation_class.cs*",
+              "ViewState": "AgIAABoAAAAAAAAAAAA9wCMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T14:29:18.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "assign_venue.cs",
+              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\assign_venue.cs",
+              "RelativeDocumentMoniker": "assign_venue.cs",
+              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\assign_venue.cs*",
+              "RelativeToolTip": "assign_venue.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAIA9wCkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T14:27:24.295Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "sponsors.cs",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\sponsors.cs",
-              "RelativeDocumentMoniker": "sponsors.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\sponsors.cs",
-              "RelativeToolTip": "sponsors.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAmwC0AAAA1AAAAAAAAAA==",
+              "Title": "assign_venue.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\assign_venue.cs",
+              "RelativeDocumentMoniker": "assign_venue.cs",
+              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\assign_venue.cs [Design]*",
+              "RelativeToolTip": "assign_venue.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T15:23:40.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T14:27:09.45Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "sponsors.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\sponsors.cs",
-              "RelativeDocumentMoniker": "sponsors.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\sponsors.cs [Design]",
-              "RelativeToolTip": "sponsors.cs [Design]",
+              "Title": "venue_class.cs",
+              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\venue_class.cs",
+              "RelativeDocumentMoniker": "venue_class.cs",
+              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\venue_class.cs",
+              "RelativeToolTip": "venue_class.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T15:23:38.904Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-22T14:21:19.993Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "finance_grid.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\finance_grid.cs",
-              "RelativeDocumentMoniker": "finance_grid.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\finance_grid.cs [Design]",
-              "RelativeToolTip": "finance_grid.cs [Design]",
+              "Title": "add_new_venue.cs",
+              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\add_new_venue.cs",
+              "RelativeDocumentMoniker": "add_new_venue.cs",
+              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\add_new_venue.cs",
+              "RelativeToolTip": "add_new_venue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T15:23:27.289Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "event_rep.rdlc [Design]",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\event_rep.rdlc",
-              "RelativeDocumentMoniker": "event_rep.rdlc",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\event_rep.rdlc [Design]",
-              "RelativeToolTip": "event_rep.rdlc [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
-              "WhenOpened": "2025-03-20T20:23:29.123Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "finance_report.cs",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\finance_report.cs",
-              "RelativeDocumentMoniker": "finance_report.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\finance_report.cs",
-              "RelativeToolTip": "finance_report.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T08:32:06.414Z",
+              "WhenOpened": "2025-03-22T14:21:03.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "committee_report.cs",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\committee_report.cs",
-              "RelativeDocumentMoniker": "committee_report.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\committee_report.cs",
-              "RelativeToolTip": "committee_report.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAQwDoAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "add_new_venue.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\add_new_venue.cs",
+              "RelativeDocumentMoniker": "add_new_venue.cs",
+              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\add_new_venue.cs [Design]",
+              "RelativeToolTip": "add_new_venue.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T07:35:31.796Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "finance_report.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\finance_report.cs",
-              "RelativeDocumentMoniker": "finance_report.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\finance_report.cs [Design]",
-              "RelativeToolTip": "finance_report.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T08:09:39.471Z",
+              "WhenOpened": "2025-03-22T14:20:44.725Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "mainpage.cs",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\mainpage.cs",
-              "RelativeDocumentMoniker": "mainpage.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\mainpage.cs",
-              "RelativeToolTip": "mainpage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T08:07:25.491Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "login_page.cs",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\login_page.cs",
-              "RelativeDocumentMoniker": "login_page.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\login_page.cs",
-              "RelativeToolTip": "login_page.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAtwIIAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:26:49.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "login_page.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\login_page.cs",
-              "RelativeDocumentMoniker": "login_page.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\login_page.cs [Design]",
-              "RelativeToolTip": "login_page.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:26:46.391Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "leaderboard.xsd",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\leaderboard.xsd",
-              "RelativeDocumentMoniker": "leaderboard.xsd",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\leaderboard.xsd",
-              "RelativeToolTip": "leaderboard.xsd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
-              "WhenOpened": "2025-03-21T11:16:40.372Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "leaderBoard.rdlc [Design]",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\leaderBoard.rdlc",
-              "RelativeDocumentMoniker": "leaderBoard.rdlc",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\leaderBoard.rdlc [Design]",
-              "RelativeToolTip": "leaderBoard.rdlc [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
-              "WhenOpened": "2025-03-21T11:15:48.236Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "result_grid.cs",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\result_grid.cs",
-              "RelativeDocumentMoniker": "result_grid.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\result_grid.cs",
-              "RelativeToolTip": "result_grid.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAowEsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:15:10.203Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "result_grid.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\result_grid.cs",
-              "RelativeDocumentMoniker": "result_grid.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\result_grid.cs [Design]",
-              "RelativeToolTip": "result_grid.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:15:08.124Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "leaderBoard.cs",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\leaderBoard.cs",
-              "RelativeDocumentMoniker": "leaderBoard.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\leaderBoard.cs",
-              "RelativeToolTip": "leaderBoard.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:11:49.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "leaderBoard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\leaderBoard.cs",
-              "RelativeDocumentMoniker": "leaderBoard.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\leaderBoard.cs [Design]",
-              "RelativeToolTip": "leaderBoard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:10:10.829Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "venues_grid.cs",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\venues_grid.cs",
-              "RelativeDocumentMoniker": "venues_grid.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\venues_grid.cs",
-              "RelativeToolTip": "venues_grid.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAArwGQAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:00:55.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 6,
               "Title": "venues_grid.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\venues_grid.cs",
               "RelativeDocumentMoniker": "venues_grid.cs",
               "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\venues_grid.cs [Design]",
               "RelativeToolTip": "venues_grid.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:00:54.411Z",
+              "WhenOpened": "2025-03-22T14:20:13.413Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "venue.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\venue.cs",
-              "RelativeDocumentMoniker": "venue.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\venue.cs [Design]",
-              "RelativeToolTip": "venue.cs [Design]",
+              "DocumentIndex": 7,
+              "Title": "vendors_grid.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\vendors_grid.cs",
+              "RelativeDocumentMoniker": "vendors_grid.cs",
+              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\vendors_grid.cs [Design]",
+              "RelativeToolTip": "vendors_grid.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:00:50.198Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "loading.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\loading.cs",
-              "RelativeDocumentMoniker": "loading.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\loading.cs [Design]",
-              "RelativeToolTip": "loading.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T10:47:34.135Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "venue_class.cs",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\venue_class.cs",
-              "RelativeDocumentMoniker": "venue_class.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\venue_class.cs",
-              "RelativeToolTip": "venue_class.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAgwD0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T10:46:12.719Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "rankings.cs",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\rankings.cs",
-              "RelativeDocumentMoniker": "rankings.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\rankings.cs",
-              "RelativeToolTip": "rankings.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAQwGwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T10:34:59.116Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "rankings.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\rankings.cs",
-              "RelativeDocumentMoniker": "rankings.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\rankings.cs [Design]",
-              "RelativeToolTip": "rankings.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T10:34:57.552Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "results_class.cs",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\results_class.cs",
-              "RelativeDocumentMoniker": "results_class.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\results_class.cs",
-              "RelativeToolTip": "results_class.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwDsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T10:34:40.636Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "finance_rep.rdlc [Design]",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\finance_rep.rdlc",
-              "RelativeDocumentMoniker": "finance_rep.rdlc",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\finance_rep.rdlc [Design]",
-              "RelativeToolTip": "finance_rep.rdlc [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
-              "WhenOpened": "2025-03-21T08:55:35.996Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "expense_data.xsd",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\expense_data.xsd",
-              "RelativeDocumentMoniker": "expense_data.xsd",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\expense_data.xsd",
-              "RelativeToolTip": "expense_data.xsd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
-              "WhenOpened": "2025-03-21T10:22:20.17Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "committee_rep.rdlc [Design]",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\committee_rep.rdlc",
-              "RelativeDocumentMoniker": "committee_rep.rdlc",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\committee_rep.rdlc [Design]",
-              "RelativeToolTip": "committee_rep.rdlc [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
-              "WhenOpened": "2025-03-21T07:17:50.185Z",
+              "WhenOpened": "2025-03-22T14:20:09.124Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "sponsors_grid.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\sponsors_grid.cs",
-              "RelativeDocumentMoniker": "sponsors_grid.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\sponsors_grid.cs [Design]",
-              "RelativeToolTip": "sponsors_grid.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T09:41:17.052Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "team_class.cs",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\team_class.cs",
-              "RelativeDocumentMoniker": "team_class.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\team_class.cs",
-              "RelativeToolTip": "team_class.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T09:41:14.2Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "finances.xsd",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\finances.xsd",
-              "RelativeDocumentMoniker": "finances.xsd",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\finances.xsd",
-              "RelativeToolTip": "finances.xsd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
-              "WhenOpened": "2025-03-21T08:55:11.344Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "itec_edition.cs",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\itec_edition.cs",
-              "RelativeDocumentMoniker": "itec_edition.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\itec_edition.cs",
-              "RelativeToolTip": "itec_edition.cs",
-              "ViewState": "AgIAAJ4AAAAAAAAAAAAQwK8AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T08:09:44.7Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "itec_edition.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\itec_edition.cs",
-              "RelativeDocumentMoniker": "itec_edition.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\itec_edition.cs [Design]",
-              "RelativeToolTip": "itec_edition.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T08:09:43.408Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "itec_edition_class.cs",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\itec_edition_class.cs",
-              "RelativeDocumentMoniker": "itec_edition_class.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\itec_edition_class.cs",
-              "RelativeToolTip": "itec_edition_class.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T08:09:37.957Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "mainpage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\mainpage.cs",
-              "RelativeDocumentMoniker": "mainpage.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\mainpage.cs [Design]",
-              "RelativeToolTip": "mainpage.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T08:07:23.793Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "user_class.cs",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\user_class.cs",
-              "RelativeDocumentMoniker": "user_class.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\user_class.cs",
-              "RelativeToolTip": "user_class.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwDEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T08:06:40.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "vendors.cs",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\vendors.cs",
-              "RelativeDocumentMoniker": "vendors.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\vendors.cs",
-              "RelativeToolTip": "vendors.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T07:38:43.053Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "finance_class.cs",
               "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\finance_class.cs",
               "RelativeDocumentMoniker": "finance_class.cs",
               "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\finance_class.cs",
               "RelativeToolTip": "finance_class.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAwwD8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T07:28:35.726Z",
+              "WhenOpened": "2025-03-22T14:14:50.072Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "finance.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\finance.cs",
-              "RelativeDocumentMoniker": "finance.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\finance.cs [Design]",
-              "RelativeToolTip": "finance.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T07:28:30.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "committee_data.xsd",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\committee_data.xsd",
-              "RelativeDocumentMoniker": "committee_data.xsd",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\committee_data.xsd",
-              "RelativeToolTip": "committee_data.xsd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
-              "WhenOpened": "2025-03-21T07:18:13.469Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "transaction.cs",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\transaction.cs",
-              "RelativeDocumentMoniker": "transaction.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\transaction.cs",
-              "RelativeToolTip": "transaction.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAMwH4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T06:26:47.805Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 9,
               "Title": "transaction.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\transaction.cs",
               "RelativeDocumentMoniker": "transaction.cs",
               "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\transaction.cs [Design]",
               "RelativeToolTip": "transaction.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T06:26:45.274Z"
+              "WhenOpened": "2025-03-22T14:14:36.837Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 11,
               "Title": "duty_class.cs",
               "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\duty_class.cs",
               "RelativeDocumentMoniker": "duty_class.cs",
               "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\duty_class.cs",
               "RelativeToolTip": "duty_class.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCMAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAmwEgAAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T23:00:59.646Z"
+              "WhenOpened": "2025-03-22T14:09:14.096Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 12,
               "Title": "duty_assignment.cs",
               "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\duty_assignment.cs",
               "RelativeDocumentMoniker": "duty_assignment.cs",
               "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\duty_assignment.cs",
               "RelativeToolTip": "duty_assignment.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAuwGoAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwDEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T23:00:06.596Z"
+              "WhenOpened": "2025-03-22T14:07:36.297Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 13,
               "Title": "duty_assignment.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\duty_assignment.cs",
               "RelativeDocumentMoniker": "duty_assignment.cs",
               "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\duty_assignment.cs [Design]",
               "RelativeToolTip": "duty_assignment.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T23:00:00.053Z"
+              "WhenOpened": "2025-03-22T14:07:34.533Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "duty_grid.cs",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\duty_grid.cs",
-              "RelativeDocumentMoniker": "duty_grid.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\duty_grid.cs",
-              "RelativeToolTip": "duty_grid.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAmwBMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T22:58:22.009Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 14,
               "Title": "duty_grid.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\duty_grid.cs",
               "RelativeDocumentMoniker": "duty_grid.cs",
               "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\duty_grid.cs [Design]",
               "RelativeToolTip": "duty_grid.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T22:58:20.32Z"
+              "WhenOpened": "2025-03-22T14:07:25.916Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
+              "Title": "duty.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\duty.cs",
+              "RelativeDocumentMoniker": "duty.cs",
+              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\duty.cs [Design]",
+              "RelativeToolTip": "duty.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T14:07:21.068Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "committee_members_assign.cs",
+              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\committee_members_assign.cs",
+              "RelativeDocumentMoniker": "committee_members_assign.cs",
+              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\committee_members_assign.cs",
+              "RelativeToolTip": "committee_members_assign.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwB0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T12:43:17.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "committee_members_assign.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\committee_members_assign.cs",
+              "RelativeDocumentMoniker": "committee_members_assign.cs",
+              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\committee_members_assign.cs [Design]",
+              "RelativeToolTip": "committee_members_assign.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T12:42:49.968Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "commitee_add.cs",
+              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\commitee_add.cs",
+              "RelativeDocumentMoniker": "commitee_add.cs",
+              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\commitee_add.cs",
+              "RelativeToolTip": "commitee_add.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T12:34:21.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "commitee_add.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\commitee_add.cs",
+              "RelativeDocumentMoniker": "commitee_add.cs",
+              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\commitee_add.cs [Design]",
+              "RelativeToolTip": "commitee_add.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T12:33:41.543Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "commitees_class.cs",
+              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\commitees_class.cs",
+              "RelativeDocumentMoniker": "commitees_class.cs",
+              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\commitees_class.cs",
+              "RelativeToolTip": "commitees_class.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAcwF0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T12:33:35.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "team_class.cs",
+              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\team_class.cs",
+              "RelativeDocumentMoniker": "team_class.cs",
+              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\team_class.cs",
+              "RelativeToolTip": "team_class.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T11:40:44.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "track_progress.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\track_progress.cs",
+              "RelativeDocumentMoniker": "track_progress.cs",
+              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\track_progress.cs [Design]",
+              "RelativeToolTip": "track_progress.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T11:40:43.942Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "team_add.cs",
+              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\team_add.cs",
+              "RelativeDocumentMoniker": "team_add.cs",
+              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\team_add.cs",
+              "RelativeToolTip": "team_add.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAIA4wDEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T11:40:16.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "team_add.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\team_add.cs",
+              "RelativeDocumentMoniker": "team_add.cs",
+              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\team_add.cs [Design]",
+              "RelativeToolTip": "team_add.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T11:40:05.816Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "registration_new.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\registration_new.cs",
+              "RelativeDocumentMoniker": "registration_new.cs",
+              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\registration_new.cs [Design]",
+              "RelativeToolTip": "registration_new.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T11:39:53.05Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "registration_for_an_event.cs",
               "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\registration_for_an_event.cs",
               "RelativeDocumentMoniker": "registration_for_an_event.cs",
               "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\registration_for_an_event.cs",
               "RelativeToolTip": "registration_for_an_event.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAcwBcAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAuwDoAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T22:35:46.522Z",
+              "WhenOpened": "2025-03-22T10:46:53.5Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 29,
               "Title": "registration_for_an_event.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\registration_for_an_event.cs",
               "RelativeDocumentMoniker": "registration_for_an_event.cs",
               "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\registration_for_an_event.cs [Design]",
               "RelativeToolTip": "registration_for_an_event.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T22:35:44.567Z",
+              "WhenOpened": "2025-03-22T10:45:38.342Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 10,
               "Title": "registration_class.cs",
               "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\registration_class.cs",
               "RelativeDocumentMoniker": "registration_class.cs",
               "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\registration_class.cs",
               "RelativeToolTip": "registration_class.cs",
-              "ViewState": "AgIAAK4AAAAAAAAAAAAkwKoAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAuwJgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T22:31:29.398Z"
+              "WhenOpened": "2025-03-22T10:26:20.004Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "registration_student.cs",
               "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\registration_student.cs",
               "RelativeDocumentMoniker": "registration_student.cs",
               "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\registration_student.cs",
               "RelativeToolTip": "registration_student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAYwOIAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T22:30:58.635Z"
+              "WhenOpened": "2025-03-22T10:23:46.47Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
+              "Title": "events_class.cs",
+              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\events_class.cs",
+              "RelativeDocumentMoniker": "events_class.cs",
+              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\events_class.cs",
+              "RelativeToolTip": "events_class.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T10:10:01.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "eventadd.cs",
+              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\eventadd.cs",
+              "RelativeDocumentMoniker": "eventadd.cs",
+              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\eventadd.cs",
+              "RelativeToolTip": "eventadd.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAlwJsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T10:08:33.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "eventadd.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\eventadd.cs",
+              "RelativeDocumentMoniker": "eventadd.cs",
+              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\eventadd.cs [Design]",
+              "RelativeToolTip": "eventadd.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T10:08:26.721Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "registration_student.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\registration_student.cs",
               "RelativeDocumentMoniker": "registration_student.cs",
               "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\registration_student.cs [Design]",
               "RelativeToolTip": "registration_student.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T22:30:57.043Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "participant_report.cs",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\participant_report.cs",
-              "RelativeDocumentMoniker": "participant_report.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\participant_report.cs",
-              "RelativeToolTip": "participant_report.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCkAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T22:13:30Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "participant_report.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\participant_report.cs",
-              "RelativeDocumentMoniker": "participant_report.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\participant_report.cs [Design]",
-              "RelativeToolTip": "participant_report.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T21:50:30.345Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "report.cs",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\report.cs",
-              "RelativeDocumentMoniker": "report.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\report.cs",
-              "RelativeToolTip": "report.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAA6wFcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:00:07.384Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "load_data_class.cs",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\load_data_class.cs",
-              "RelativeDocumentMoniker": "load_data_class.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\load_data_class.cs",
-              "RelativeToolTip": "load_data_class.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB4AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:51:04.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "event_dataset4.cs",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\event_dataset4.cs",
-              "RelativeDocumentMoniker": "event_dataset4.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\event_dataset4.cs",
-              "RelativeToolTip": "event_dataset4.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:49:16.966Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "report.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\report.cs",
-              "RelativeDocumentMoniker": "report.cs",
-              "ToolTip": "C:\\Users\\Rayya\\Videos\\C#\\Itec Mangement\\report.cs [Design]",
-              "RelativeToolTip": "report.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:00:04.822Z"
+              "WhenOpened": "2025-03-22T10:07:46.351Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

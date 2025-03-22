@@ -32,7 +32,7 @@ namespace Itec_Mangement
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.Clear();
+           // textBox1.Clear();
 
             MessageBox.Show("All Cleared", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
@@ -42,17 +42,17 @@ namespace Itec_Mangement
         {
             string committee_id = comboBox1.SelectedValue.ToString();
             string assign_member = comboBox2.Text.ToString();
-            string duty_id = textBox1.Text.Trim();
+           // string duty_id = textBox1.Text.Trim();
             string deadline = dateTimePicker1.Text.Trim();
             string description = textBox3.Text.Trim();
             string status_id = comboBox3.SelectedValue.ToString();
 
-            bool flag = duty_class.assignDuty(duty_id, committee_id, assign_member,description, deadline, status_id);
+            bool flag = duty_class.assignDuty( committee_id, assign_member,description, deadline, status_id);
             if (flag)
             {
                 MessageBox.Show("Duty Assigned Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
-                textBox1.Clear();
+                //textBox1.Clear();
                 textBox3.Clear();
             }
             else

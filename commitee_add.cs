@@ -55,17 +55,15 @@ namespace Itec_Mangement
         private void button2_Click(object sender, EventArgs e)
         {
             string name = textBox2.Text.Trim();
-            string id = textBox1.Text.Trim();
             string itec_id = GlobalData.ItecId;
 
 
-            bool flag = commitees_class.commitee_add(name,itec_id,id);
+            bool flag = commitees_class.commitee_add(name,itec_id);
             if (flag)
             {
                 MessageBox.Show("Committee added Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
                 textBox2.Clear();
-                textBox1.Clear();
 
 
             }
@@ -82,7 +80,6 @@ namespace Itec_Mangement
         private void button1_Click(object sender, EventArgs e)
         {
 
-            textBox1 .Clear();
             textBox2.Clear();
             textBox4.Clear();
             MessageBox.Show("All Cleared", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);

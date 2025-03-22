@@ -27,7 +27,7 @@ namespace Itec_Mangement
         {
             //textBox6.Clear();
             //textBox1.Clear();
-            textBox2.Clear();
+            //textBox2.Clear();
             //textBox4.Clear();
             MessageBox.Show("All Cleared", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
@@ -40,18 +40,16 @@ namespace Itec_Mangement
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string member_id = textBox2.Text.Trim();
             string member_name = textBox1.Text.Trim();
             string role_id = comboBox1.SelectedValue.ToString();
           
 
-            bool flag = commitees_class.assign_members(member_id, member_name,committee_id,role_id);
+            bool flag = commitees_class.assign_members(member_name,committee_id,role_id);
             if (flag)
             {
                 MessageBox.Show("Member Assigned Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
                 textBox1.Clear();
-                textBox2.Clear() ;
 
             }
             else
@@ -125,6 +123,11 @@ namespace Itec_Mangement
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
         {
 
         }

@@ -70,9 +70,9 @@ namespace Itec_Mangement
         
 
 
-        public static bool add_event(string event_name,string event_id,string itec_id,string committee_id,string description,string date,string venue,string event_category_id)
+        public static bool add_event(string event_name,string itec_id,string committee_id,string description,string date,string venue,string event_category_id)
         {
-            if (string.IsNullOrEmpty(event_name) || string.IsNullOrEmpty(event_id) || string.IsNullOrEmpty(itec_id) || string.IsNullOrEmpty(committee_id) || string.IsNullOrEmpty (description) || string.IsNullOrEmpty(date) || string.IsNullOrEmpty(venue) || string.IsNullOrEmpty(event_category_id))
+            if (string.IsNullOrEmpty(event_name)|| string.IsNullOrEmpty(itec_id) || string.IsNullOrEmpty(committee_id) || string.IsNullOrEmpty (description) || string.IsNullOrEmpty(date) || string.IsNullOrEmpty(venue) || string.IsNullOrEmpty(event_category_id))
             {
                 MessageBox.Show("Please fill all fields.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
@@ -80,13 +80,6 @@ namespace Itec_Mangement
             }
 
 
-            int event_id_int;
-            bool is_event = int.TryParse(event_id , out event_id_int);
-            if (!is_event)
-            {
-                MessageBox.Show("Event ID must be in numbers.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return false;
-            }
 
             int itec_id_int = Convert.ToInt32(itec_id);
             int committee_id_int = Convert.ToInt32(committee_id);
@@ -95,7 +88,7 @@ namespace Itec_Mangement
             string formattedDate = DateTime.Parse(date).ToString("yyyy-MM-dd");
 
 
-            string query = $"insert into itec_events values ({event_id},{itec_id_int},'{event_name}',{event_category_id_int},'{description}','{formattedDate}',{venue_id_int},{committee_id_int})";
+            string query = $"insert into itec_events (itec_id,event_name,event_category_id,description,event_date,venue_id,committee_id)  values ({itec_id_int},'{event_name}',{event_category_id_int},'{description}','{formattedDate}',{venue_id_int},{committee_id_int})";
 
             int rows = DatabaseHelper.Instance.Update(query);
 

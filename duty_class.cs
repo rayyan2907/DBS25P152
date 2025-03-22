@@ -46,31 +46,31 @@ namespace Itec_Mangement
             return DatabaseHelper.Instance.GetData(query);
         }
 
-        public static bool assignDuty(string duty_id,string committee_id ,string assign_to , string description , string deadline , string status_id)
+        public static bool assignDuty(string committee_id ,string assign_to , string description , string deadline , string status_id)
         {
 
-            if (string.IsNullOrEmpty(duty_id) || string.IsNullOrEmpty(committee_id) || string.IsNullOrEmpty(assign_to) || string.IsNullOrEmpty(description) || string.IsNullOrEmpty(deadline) || string.IsNullOrEmpty(status_id))   
+            if (string.IsNullOrEmpty(committee_id) || string.IsNullOrEmpty(assign_to) || string.IsNullOrEmpty(description) || string.IsNullOrEmpty(deadline) || string.IsNullOrEmpty(status_id))   
             {
                 MessageBox.Show("Please fill all fields.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
                 return false;
             }
 
-            int duty_id_int , status_id_int , committee_id_int;
+            int  status_id_int , committee_id_int;
 
-            bool is_duty = int.TryParse(duty_id,out duty_id_int);
+            //bool is_duty = int.TryParse(duty_id,out duty_id_int);
             status_id_int = Convert.ToInt32(status_id);
             committee_id_int = Convert.ToInt32(committee_id);
             string formattedDate = DateTime.Parse(deadline).ToString("yyyy-MM-dd");
 
 
-            if (!is_duty)
-            {
-                MessageBox.Show("Duty ID must be in numbers.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return false;
-            }
+            //if (!is_duty)
+            //{
+            //    MessageBox.Show("Duty ID must be in numbers.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            //    return false;
+            //}
 
-            string query = $"insert into duties values ({duty_id_int},{committee_id_int},'{assign_to}','{description}','{formattedDate}',{status_id_int})";
+            string query = $"insert into duties (committee_id , assigned_to ,task_description , deadline, status_id    ) values ({committee_id_int},'{assign_to}','{description}','{formattedDate}',{status_id_int})";
             int rows = DatabaseHelper.Instance.Update(query);
             return rows > 0;
 

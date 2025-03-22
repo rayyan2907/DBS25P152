@@ -190,6 +190,18 @@
     <Compile Include="finance_report.Designer.cs">
       <DependentUpon>finance_report.cs</DependentUpon>
     </Compile>
+    <Compile Include="itec_edition_for_sponosrs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itec_edition_for_sponosrs.Designer.cs">
+      <DependentUpon>itec_edition_for_sponosrs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itec_edition_for_students.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itec_edition_for_students.Designer.cs">
+      <DependentUpon>itec_edition_for_students.cs</DependentUpon>
+    </Compile>
     <Compile Include="leaderBoard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -277,6 +289,12 @@
     </Compile>
     <Compile Include="signup.Designer.cs">
       <DependentUpon>signup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="spnosor_only_page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="spnosor_only_page.Designer.cs">
+      <DependentUpon>spnosor_only_page.cs</DependentUpon>
     </Compile>
     <Compile Include="sponsors_grid.cs">
       <SubType>Form</SubType>
@@ -591,6 +609,12 @@
     <EmbeddedResource Include="itec_edition.resx">
       <DependentUpon>itec_edition.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="itec_edition_for_sponosrs.resx">
+      <DependentUpon>itec_edition_for_sponosrs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itec_edition_for_students.resx">
+      <DependentUpon>itec_edition_for_students.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="leaderBoard.rdlc" />
     <EmbeddedResource Include="leaderBoard.resx">
       <DependentUpon>leaderBoard.cs</DependentUpon>
@@ -659,6 +683,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="signup.resx">
       <DependentUpon>signup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="spnosor_only_page.resx">
+      <DependentUpon>spnosor_only_page.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="sponsors.resx">
       <DependentUpon>sponsors.cs</DependentUpon>
@@ -1017,6 +1044,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Yellow and Pink Fruit Bold Illustrative Food Product Logo %282%29_processed %281%291.jpg" />
+    <None Include="Resources\Yellow and Pink Fruit Bold Illustrative Food Product Logo %282%29_processed %281%29 %281%291.jpg" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

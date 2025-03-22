@@ -26,23 +26,20 @@ namespace Itec_Mangement
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string participant_id = textBox2.Text.Trim();
             string name = textBox1.Text.Trim();
             string email = textBox6.Text.Trim();
             string contact_details = textBox5.Text.Trim();
             string institute = textBox3.Text.Trim();
             string itec_id = GlobalData.ItecId;
             string role_id = comboBox1.SelectedValue.ToString();
-            string team_id = comboBox2.SelectedValue.ToString();
+           // string team_id = comboBox2.SelectedValue.ToString();
 
 
-            bool flag = registration_class.participant_add(participant_id,name,itec_id,email,contact_details,institute,role_id);
-            bool flag2 = registration_class.addToTeam(participant_id,team_id);
-            if (flag && flag2)
+            bool flag = registration_class.participant_add(name,itec_id,email,contact_details,institute,role_id);
+            if (flag )
             {
                 MessageBox.Show("Participant added Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
-                textBox2.Clear();
                 textBox3.Clear();
                 textBox5.Clear();
                 textBox6.Clear();
@@ -66,7 +63,6 @@ namespace Itec_Mangement
         {
 
             textBox1.Clear();
-            textBox2.Clear();
             textBox3.Clear();
            // textBox4.Clear();
             textBox5.Clear();
@@ -223,12 +219,12 @@ namespace Itec_Mangement
         {
             DataTable team = registration_class.getTeams(Convert.ToInt32(GlobalData.ItecId));
 
-            if (team != null)
-            {
-                comboBox2.DataSource = team;
-                comboBox2.DisplayMember = "team_name";
-                comboBox2.ValueMember = "team_id";
-            }
+            //if (team != null)
+            //{
+            //    comboBox2.DataSource = team;
+            //    comboBox2.DisplayMember = "team_name";
+            //    comboBox2.ValueMember = "team_id";
+            //}
 
         }
     }

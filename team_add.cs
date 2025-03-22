@@ -45,16 +45,14 @@ namespace Itec_Mangement
         private void button2_Click(object sender, EventArgs e)
         {
             string team_name = textBox2.Text.Trim();
-            string team_id = textBox3.Text.Trim();
             string event_id = comboBox1.SelectedValue.ToString();
 
-            bool flag = team_class.addteam(team_name,team_id , event_id);
+            bool flag = team_class.addteam(team_name , event_id);
             if (flag)
             {
                 MessageBox.Show("Team added Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
                 textBox2.Clear();
-                textBox3.Clear();
 
 
             }
@@ -68,7 +66,6 @@ namespace Itec_Mangement
         private void button1_Click(object sender, EventArgs e)
         {
             textBox2.Clear();
-            textBox3.Clear();
             //textBox4.Clear();  
             MessageBox.Show("All Cleared", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
 

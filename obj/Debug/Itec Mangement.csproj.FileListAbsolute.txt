@@ -154,3 +154,6 @@ C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.participant_rep
 C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.committee_report.resources
 C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.finance_report.resources
 C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.leaderBoard.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.itec_edition_for_sponosrs.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.itec_edition_for_students.resources
+C:\Users\Rayya\Videos\C#\Itec Mangement\obj\Debug\Itec_Mangement.spnosor_only_page.resources

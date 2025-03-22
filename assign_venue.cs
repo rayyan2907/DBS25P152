@@ -25,7 +25,7 @@ namespace Itec_Mangement
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string venue_all_id = textBox1.Text.Trim();
+            //string venue_all_id = textBox1.Text.Trim();
             string venue_id = venue;
             string events_id = comboBox1.SelectedValue.ToString();
 
@@ -39,12 +39,11 @@ namespace Itec_Mangement
             if (dt == null || !(dt.Rows.Count > 0))
             {
 
-                bool flag = venue_allocation_class.allocate_venue(venue_all_id, venue_id, events_id, date, time);
+                bool flag = venue_allocation_class.allocate_venue(venue_id, events_id, date, time);
                 if (flag)
                 {
                     MessageBox.Show("Venue assigned Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     this.Close();
-                    textBox1.Clear();
 
 
                 }
@@ -73,7 +72,6 @@ namespace Itec_Mangement
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.Clear();
             MessageBox.Show("All Cleared", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }

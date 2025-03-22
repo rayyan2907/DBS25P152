@@ -18,27 +18,26 @@ namespace Itec_Mangement
             return DatabaseHelper.Instance.GetData(query) ;
         }
 
-        public static bool addteam(string name,string id,string event_id)
+        public static bool addteam(string name,string event_id)
         {
-            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(id) || string.IsNullOrEmpty(event_id))
+            if (string.IsNullOrEmpty(name) ||  string.IsNullOrEmpty(event_id))
             {
                 MessageBox.Show("Please fill all fields.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
                 return false;
             }
 
-            int id_int,event_id_int;
+            int event_id_int;
 
-            bool is_int = int.TryParse(id, out id_int);
             bool is_event = int.TryParse(event_id, out event_id_int);
 
-            if (!is_int || !is_event)
+            if (!is_event)
             {
                 MessageBox.Show("Team ID must be in numbers.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return false;
             }
 
-            string query = $"insert into teams values ({id},{event_id_int},'{name}')";
+            string query = $"insert into teams (event_id , team_name ) values ({event_id_int},'{name}')";
 
             int rows = DatabaseHelper.Instance.Update(query);
             return rows > 0;

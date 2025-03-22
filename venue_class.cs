@@ -10,28 +10,28 @@ namespace Itec_Mangement
 {
     public class venue_class
     {
-        public static bool VenueAdd(string venue_id, string venue_name,string capacity, string location)
+        public static bool VenueAdd(string venue_name,string capacity, string location)
         {
             
-            if (string.IsNullOrEmpty(venue_id) || string.IsNullOrEmpty(location) || string.IsNullOrEmpty(venue_name) || string.IsNullOrEmpty(capacity)  ) 
+            if (string.IsNullOrEmpty(location) || string.IsNullOrEmpty(venue_name) || string.IsNullOrEmpty(capacity)  ) 
             {
 				MessageBox.Show("Please fill all fields.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
 				return false;
 			}
 
-            int venue_id_int, capacity_int;
+            int  capacity_int;
 
-            bool is_venue= int.TryParse(venue_id, out venue_id_int);
+           // bool is_venue= int.TryParse(venue_id, out venue_id_int);
             bool is_capacity = int.TryParse(capacity, out capacity_int);
             
-            if (!is_capacity || ! is_venue)
+            if (!is_capacity)
             {
 				MessageBox.Show("Venue ID and Capacity must be in numbers.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 				return false;
 			}
 
-            string query = $"insert into venues values ('{venue_id_int}','{venue_name}','{capacity_int}','{location}')";
+            string query = $"insert into venues (venue_name,capacity,location) values ('{venue_name}','{capacity_int}','{location}')";
 
             int rows = DatabaseHelper.Instance.Update(query);
             return rows > 0;

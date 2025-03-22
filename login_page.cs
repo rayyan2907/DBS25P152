@@ -120,15 +120,16 @@ namespace Itec_Mangement
             else if (role == "Student")
             {
                 MessageBox.Show("You have logged in as student", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                itec_edition itec_Edition = new itec_edition();
-                itec_Edition.Show();
+                itec_edition_for_students itec_Edition_For_Students = new itec_edition_for_students();
+                itec_Edition_For_Students.Show();
+               
 
             }
             else if (role == "Sponsor")
             {
                 MessageBox.Show("You have logged in as sponsor", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                itec_edition itec_Edition = new itec_edition();
-                itec_Edition.Show();
+                itec_edition_for_sponosrs itec_Edition_For_Sponosrs = new itec_edition_for_sponosrs();
+                itec_Edition_For_Sponosrs.Show();
             }
         }
 

@@ -33,7 +33,8 @@ namespace Itec_Mangement
 
         private void itec_edition_Load(object sender, EventArgs e)
         {
-
+            itec_edition_load(sender, e);
+            panel2.Show();
         }
 
         private void pictureBox2_Click_1(object sender, EventArgs e)
@@ -68,8 +69,7 @@ namespace Itec_Mangement
 
         private void button2_Click(object sender, EventArgs e)
         {
-            itec_edition_load(sender, e);
-            panel2.Show();
+            
         }
 
         private void button1_Click_2(object sender, EventArgs e)
@@ -86,8 +86,8 @@ namespace Itec_Mangement
         private void button1_Click(object sender, EventArgs e)
         {
             panel1.Hide();
-            
 
+            panel2.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -118,8 +118,10 @@ namespace Itec_Mangement
         private void button6_Click(object sender, EventArgs e)
         {
 
-            panel2.Hide();
-            
+            login_page login_page = new login_page();
+            login_page.Show();
+            this.Hide();
+
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -197,6 +199,12 @@ namespace Itec_Mangement
             login_page login_page = new login_page();
             login_page.Show();
             this.Hide();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            panel2.Hide();
+            panel1.Show();
         }
     }
 
