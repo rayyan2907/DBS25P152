@@ -10,9 +10,9 @@ namespace Itec_Mangement
 {
     public class itec_edition_class
     {
-        public static bool AddEdition(string itec_id, string year, string theme, string description)
+        public static bool AddEdition( string year, string theme, string description)
         { // to add new edition
-            if (string.IsNullOrEmpty(itec_id) || string.IsNullOrEmpty(year) || string.IsNullOrEmpty(theme) || string.IsNullOrEmpty(description))
+            if (string.IsNullOrEmpty(year) || string.IsNullOrEmpty(theme) || string.IsNullOrEmpty(description))
             {
                 MessageBox.Show("Please fill all fields.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
@@ -20,19 +20,19 @@ namespace Itec_Mangement
             }
             int itec_id_int, year_int;
 
-            bool is_itec = int.TryParse(itec_id, out itec_id_int);
+            //bool is_itec = int.TryParse(itec_id, out itec_id_int);
             bool is_year = int.TryParse(year, out year_int);
 
-            if (!is_itec && !is_year)
+            if ( !is_year)
             {
-                MessageBox.Show("ITEC ID and Year must be in numbers.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Year must be in numbers.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return false;
             }
 
 
 
 
-            string query = $"INSERT INTO itec_editions VALUES ('{itec_id}', '{year}', '{theme}', '{description}')";
+            string query = $"INSERT INTO itec_editions (year,theme,description) VALUES ('{year}', '{theme}', '{description}')";
 
             
             int rows = DatabaseHelper.Instance.Update(query);
@@ -45,7 +45,7 @@ namespace Itec_Mangement
         {
             try
             {
-                string query = "select  itec_id,year from itec_editions order by year asc";
+                string query = "select  itec_id,year from itec_editions order by year desc";
                 return DatabaseHelper.Instance.GetData(query);
 
             }

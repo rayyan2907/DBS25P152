@@ -71,5 +71,11 @@ namespace Itec_Mangement
         {
 
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            registration_student registration_Student = new registration_student();
+            registration_Student.Show();
+        }
     }
 }

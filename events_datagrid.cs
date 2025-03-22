@@ -44,6 +44,7 @@ namespace Itec_Mangement
 
         private void events_datagrid_Load(object sender, EventArgs e)
         {
+            //this.reportViewer1.RefreshReport();
         }
 
         public void loadData()

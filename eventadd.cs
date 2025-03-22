@@ -211,6 +211,8 @@ namespace Itec_Mangement
             else
             {
                 MessageBox.Show("No categories found.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
+
             }
 
         }
@@ -228,6 +230,8 @@ namespace Itec_Mangement
             else
             {
                 MessageBox.Show("No venues found.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
+
 
             }
 
@@ -251,6 +255,7 @@ namespace Itec_Mangement
             else
             {
                 MessageBox.Show("No committees found.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
                // comboBox3.ValueMember = null;
 
             }

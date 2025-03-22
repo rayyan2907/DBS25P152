@@ -92,16 +92,17 @@ namespace Itec_Mangement
 
         private void button4_Click(object sender, EventArgs e)
         {
-            string itec_id = textBox1.Text.Trim();
+            //string itec_id = textBox1.Text.Trim();
             string year = textBox2.Text.Trim();
             string theme = textBox3.Text.Trim();
             string description = textBox4.Text.Trim();
-            bool flag = itec_edition_class.AddEdition(itec_id, year, theme,description);
+            bool flag = itec_edition_class.AddEdition( year, theme,description);
 
             if (flag)
             {
                 MessageBox.Show("Edition Saved Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+                panel1.Hide();
+                panel2.Show();
             }
             else
             {
@@ -205,6 +206,11 @@ namespace Itec_Mangement
         {
             panel2.Hide();
             panel1.Show();
+        }
+
+        private void itec_edition_Activated(object sender, EventArgs e)
+        {
+            LoadEditions();
         }
     }
 

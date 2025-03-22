@@ -126,6 +126,8 @@ namespace Itec_Mangement
                 comboBox1.DataSource = team;
                 comboBox1.DisplayMember = "team_name";
                 comboBox1.ValueMember = "team_id";
+                //this.Close();
+
             }
 
         }
@@ -145,6 +147,8 @@ namespace Itec_Mangement
             else
             {
                 MessageBox.Show("No events found.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
+
 
             }
 
@@ -164,7 +168,8 @@ namespace Itec_Mangement
             }
             else
             {
-                MessageBox.Show("No events found.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("No Participants found.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
 
             }
 

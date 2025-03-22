@@ -91,6 +91,8 @@ namespace Itec_Mangement
             else
             {
                 MessageBox.Show("No committees found.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
+
 
             }
 
@@ -114,6 +116,8 @@ namespace Itec_Mangement
             else
             {
                 MessageBox.Show("No members found.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
+
 
             }
         }

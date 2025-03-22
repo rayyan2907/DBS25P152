@@ -78,7 +78,7 @@ namespace Itec_Mangement
 
         private void committees_grid_Load(object sender, EventArgs e)
         {
-
+            loadData();
         }
 
 

@@ -113,6 +113,8 @@ namespace Itec_Mangement
             else
             {
                 MessageBox.Show("No events found.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
+
                 comboBox1.Text = "No Events Found.";
             }
         }
